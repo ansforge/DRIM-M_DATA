@@ -15,7 +15,7 @@ Cette liste blanche est mise à disposition par l'ANS à destination des éditeu
 Notamment 
 - les vérificatons cryptographiques à partir des certificats Racine et Intermédiaire.
 - la vérification du contenu du certificat de signature utilisé (Vérification CN et OU) avec le contrôle de sa validité
-Enfin la vérification de non révocation du certificat à partir du fichier CRL accessible sur le site de l'IGC Sante.
+- Enfin la vérification de non révocation du certificat à partir du fichier CRL accessible sur le site de l'IGC Sante.
 
 Le contenu du certificat de signature utilisé pour signer le fichier est : 
 CN=Liste Blanche DRIM-M,OU=318751275100020
