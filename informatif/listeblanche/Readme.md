@@ -2,7 +2,7 @@ Ce répertoire contient une liste blanche répertoriant un ensemble d'URL et Cer
 
 
 La liste blanche a été signée à l'aide d'un certificat ORG SIGN de l'offre organisation de l'AC IGC Santé environnement TEST.
-la signature utilisée est de type enveloppée, elle est conforme aux spécifications DRIMbox.
+la signature utilisée est de type enveloppée (Format XAdES-BASELINE-B), elle est conforme aux spécifications DRIMbox.
 
 le certificat de signature utilisé par l'ANS pour signer la liste blanche est issu de l'infrastructure de gestion de la confiance "IGC-SANTE" Environnement TEST.
 http://igc-sante.esante.gouv.fr/PC%20TEST/
