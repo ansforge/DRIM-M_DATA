@@ -27,6 +27,6 @@ https://github.com/ansforge/esignsante
 Si un outil tiers est utilisé il sera nécessaire de créer un keystore avec les certificats racine et intermédiaire.
 Si l'outil EsignSanté de l'ANS est utilisé la vérification à l'aide de cette commande produira un fichier encodé.
 Exemple : curl -X POST "http://XX.XX.XX.XX/esignsante/v1/validation/signatures/xadesbaselineb" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F "idVerifSignConf=1" -F "file=@c:\test\listeblanche_INFORMATIFSIGNE.xml;type=text/xml" > c:\test\listeblanche_INFORMATIQUESIGNE.log
-Le fichier log est dans le répertoire listeblanche pour interprétation.
-L'avantage est que l'outil Esign Santé peut charger directement les données de l'infrastructure IGC-SANTE
-A noter dans l'exemple le statut True qui permet de signifier la vérification et validation de la signature.
+
+Le fichier listeblanche_INFORMATIQUESIGNE.log contient l'ensemble des éléments vérifiés et détaillés.
+
