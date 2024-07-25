@@ -70,6 +70,27 @@ Miscellaneous Options:
                         PatientID to retrieve default: 199
 ```
 
+### Résultats
+
+Les résultats du script sont présentés sous la forme suivante:
+
+```bash
+-----RESULTS-------------------------------------------------------------------------
+Start time: 2024-07-25 11:11:44.133268
+End time: 2024-07-25 11:11:56.151701
+First image received at: 2024-07-25 11:11:44.574870
+
+Transfer Syntax received: 1.2.840.10008.1.2.4.80
+Total bytes transfered: 209.577218 MB
+/!\ WARNING: If this is not what you expected, there must have have been some TS conversion from the PACS
+Please consider these results carefully.
+(Study 1.2.250.1.213.4.5.2.1.199 is initially encoded in 1.2.840.10008.1.2.4.80)
+
+Latency (first image): 0:00:00.441602
+Throughput: 139.50385578552545 Mbps
+------------------------------------------------------------------------------------
+```
+
 ## Contact
 
 Pour toute information complémentaire, merci de contacter ans-forge@esante.gouv.fr

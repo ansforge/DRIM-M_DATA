@@ -208,7 +208,7 @@ def _setup_argparser():
             f"PatientID to retrieve "
             f"default: 199"
         ),
-        type=int,
+        type=str,
         default="199",
     )
 
@@ -217,11 +217,15 @@ def _setup_argparser():
 total_size = 0
 first_image_received = False
 time_firstimage = datetime.now()
+transfer_syntax_received = "" 
 
 def handle_store(event):
-    global total_size, first_image_received, time_firstimage
+    global total_size, first_image_received, time_firstimage, transfer_syntax_received
     """Handle a C-STORE service request"""
+
     ds = event.dataset
+    # Add the file meta information elements
+    ds.file_meta = event.file_meta
     with BytesIO() as buffer:
         # create a DicomFileLike object that has some properties of DataSet
         memory_dataset = DicomFileLike(buffer)
@@ -231,8 +235,8 @@ def handle_store(event):
         if first_image_received == False:
             time_firstimage = datetime.now()
             print("First image received")
-            print(time_firstimage)
             first_image_received = True
+            transfer_syntax_received = ds.file_meta.TransferSyntaxUID
     # Ignore the request and return Success
     return 0x0000
 
@@ -292,7 +296,6 @@ def main(args=None):
     time_start = datetime.now()
     time_start.microsecond
     print("-----STARTING SPEEDTEST------")
-    print(time_start)
 
     commandline = ("python3 -m pynetdicom movescu " + args.host + " " + str(args.port) + " -aec " + args.aec + 
          " -v  -k QueryRetrieveLevel=PATIENT -k PatientID=" + str(args.patientid) + " -k StudyInstanceUID=" + args.study + " -aem " + args.ae_title)
@@ -302,20 +305,34 @@ def main(args=None):
 
     time_stop = datetime.now()
     print("-----STOP------")
-    print(time_stop)
 
     latency = time_firstimage - time_start
     if time_firstimage < time_start:
         print("Something went wrong, no images received. Aborting Speedtest.")
+        print("Please make sure connection with the PACS is properly configured")
+        print("and that the Speedtest C-STORE AET is declared on the PACS.")
         return
     
     total_duration =  time_stop - time_start
 
     throughput = ((total_size * 8 ) / total_duration.total_seconds()) / 1000000
 
-    print("-----RESULTS-----")
-    print("LATENCY: " + str(latency))
-    print("THROUGHPUT: " + str(throughput) + " Mbps" )
+    print("")
+    print("-----RESULTS-------------------------------------------------------------------------")
+    print("Start time: " + str(time_start))
+    print("End time: " + str(time_stop))
+    print("First image received at: " + str(time_firstimage))
+    print("")
+    print("Transfer Syntax received: " + transfer_syntax_received)
+    print("Total bytes transfered: " + str(total_size/1000000) +  " MB")
+    print("/!\ WARNING: If this is not what you expected, there must have have been some TS conversion from the PACS")
+    print("Please consider these results carefully.")
+    print("(Study 1.2.250.1.213.4.5.2.1.199 is initially encoded in 1.2.840.10008.1.2.4.80)")
+    print("")
+    print("Latency (first image): " + str(latency))
+    print("Throughput: " + str(throughput) + " Mbps" )
+    print("------------------------------------------------------------------------------------")
+
 
 
 if __name__ == "__main__":
