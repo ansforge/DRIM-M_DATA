@@ -31,21 +31,6 @@ Pour cela il faut récuperer le document CDA qui est dans le champ **OBX-5.4**
 5. Remplacer le champ **OBX-5.4** par le nouveau document CDA
 6. Modifier la valeur du champ **TXA-12** par le nouvel identifiant **pour les messages MDM**.
 
-#### Cas du remplacement de document
-Dans le cas d'un remplacement de document, on retrouve l'identifiant du document à remplacer dans l'élement **relatedDocument" qui correspond à l'identifiant du document remplacé.
-
-Exemple pour un document CDA : 
-```XML
-<relatedDocument typeCode="RPLC">
-<parentDocument>
-<id root="1.2.250.2345.3245.13.58132"/>
-</parentDocument>
-</relatedDocument>
-```
-#### Instruction
-
-Dans ce cas, il vous faudra modifier l'identifiant du document remplacé dans le document CDA et la valeur du champ **TXA-13**
-
 
 
 
@@ -60,7 +45,6 @@ Dans ce cas, il vous faudra modifier l'identifiant du document remplacé dans le
 | MSH  | MSH-7          |    Date/time du message | |
 | MSH  | MSH-10          |   Identifiant du message  | |
 | TXA  | TXA-12          |   Identifiant du document  | pour les **messages MDM** |
-| TXA  | TXA-13          |   Identifiant du document à remplacer | Dans le cas d'un remplacement et pour les **messages MDM** |
 | PRT  | PRT-8.1         |   Nom de l’organisation   | |
 | PRT  | PRT-8.10        |  Identifiant de l’organisation destinataire du document   |  FINESS Geographique correspondant au certicat utilisé pour l'alimentation |
 | OBX  | OBX-5.4         |  Document CDA encodé en base 64    | |
