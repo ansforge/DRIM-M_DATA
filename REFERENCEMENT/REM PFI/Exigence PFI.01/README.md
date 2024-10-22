@@ -60,7 +60,7 @@ Pour cela il faut récuperer le document CDA qui est dans le champ **OBX-5.4**
 8. Modifier la valeur du champ **PRT-8.10** par le nouvel identifiant de la structure de l'auteur
 
 
-### Synthése des modifications à effectuer dans le message HL7v2
+### Synthèse des modifications à effectuer dans le message HL7v2
 
 | Segment  | Champs          | Description | Instruction |
 | :--------------- |:---------------| :-----:| :-----|
