@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<file-format>
+    <meta-header xfer="1.2.840.10008.1.2.1" name="Little Endian Explicit">
+        <element tag="0002,0000" vr="UL" vm="1" len="4" name="FileMetaInformationGroupLength">176</element>
+        <element tag="0002,0001" vr="OB" vm="1" len="2" name="FileMetaInformationVersion" binary="hidden"></element>
+        <element tag="0002,0002" vr="UI" vm="1" len="30" name="MediaStorageSOPClassUID">1.2.840.10008.5.1.4.1.1.88.59</element>
+        <element tag="0002,0003" vr="UI" vm="1" len="32" name="MediaStorageSOPInstanceUID">1.2.250.1.213.4.5.2.3.101.259.31</element>
+        <element tag="0002,0010" vr="UI" vm="1" len="18" name="TransferSyntaxUID">1.2.840.10008.1.2</element>
+        <element tag="0002,0012" vr="UI" vm="1" len="28" name="ImplementationClassUID">1.2.276.0.7230010.3.0.3.6.7</element>
+        <element tag="0002,0013" vr="SH" vm="1" len="14" name="ImplementationVersionName">PYDICOM 2.4.4</element>
+    </meta-header>
+    <data-set xfer="1.2.840.10008.1.2" name="Little Endian Implicit">
+        <element tag="0008,0005" vr="CS" vm="1" len="10" name="SpecificCharacterSet">ISO_IR 100</element>
+        <element tag="0008,0012" vr="DA" vm="1" len="8" name="InstanceCreationDate">20240828</element>
+        <element tag="0008,0013" vr="TM" vm="1" len="6" name="InstanceCreationTime">162326</element>
+        <element tag="0008,0016" vr="UI" vm="1" len="30" name="SOPClassUID">1.2.840.10008.5.1.4.1.1.88.59</element>
+        <element tag="0008,0018" vr="UI" vm="1" len="32" name="SOPInstanceUID">1.2.250.1.213.4.5.2.3.101.259.31</element>
+        <element tag="0008,0020" vr="DA" vm="1" len="8" name="StudyDate">20220822</element>
+        <element tag="0008,0021" vr="DA" vm="1" len="8" name="SeriesDate">20240828</element>
+        <element tag="0008,0023" vr="DA" vm="1" len="8" name="ContentDate">20240828</element>
+        <element tag="0008,0030" vr="TM" vm="1" len="14" name="StudyTime">083117.658000</element>
+        <element tag="0008,0031" vr="TM" vm="1" len="6" name="SeriesTime">162326</element>
+        <element tag="0008,0033" vr="TM" vm="1" len="6" name="ContentTime">162326</element>
+        <element tag="0008,0050" vr="SH" vm="0" len="0" name="AccessionNumber"></element>
+        <element tag="0008,0060" vr="CS" vm="1" len="2" name="Modality">KO</element>
+        <element tag="0008,0070" vr="LO" vm="1" len="4" name="Manufacturer">ANS</element>
+        <element tag="0008,0080" vr="LO" vm="1" len="48" name="InstitutionName">Centre de radiologie Ambroise^^^^^^^^^101235555</element>
+        <element tag="0008,0090" vr="PN" vm="0" len="0" name="ReferringPhysicianName"></element>
+        <element tag="0008,0201" vr="SH" vm="1" len="6" name="TimezoneOffsetFromUTC">+0200</element>
+        <element tag="0008,1030" vr="LO" vm="1" len="8" name="StudyDescription">Examen A</element>
+        <sequence tag="0008,1111" vr="SQ" card="0" len="0" name="ReferencedPerformedProcedureStepSequence">
+        </sequence>
+        <element tag="0010,0010" vr="PN" vm="1" len="20" name="PatientName">PAT-TROIS^DOMINIQUE</element>
+        <element tag="0010,0020" vr="LO" vm="1" len="16" name="PatientID">279035121518989</element>
+        <element tag="0010,0021" vr="LO" vm="1" len="18" name="IssuerOfPatientID">ASIP-SANTE-INS-NIR</element>
+        <sequence tag="0010,0024" vr="SQ" card="1" len="48" name="IssuerOfPatientIDQualifiersSequence">
+            <item card="2" len="40">
+                <element tag="0040,0032" vr="UT" vm="1" len="20" name="UniversalEntityID">1.2.250.1.213.1.4.10</element>
+                <element tag="0040,0033" vr="CS" vm="1" len="4" name="UniversalEntityIDType">ISO</element>
+            </item>
+        </sequence>
+        <element tag="0010,0030" vr="DA" vm="1" len="8" name="PatientBirthDate">19790328</element>
+        <element tag="0010,0040" vr="CS" vm="1" len="2" name="PatientSex">F</element>
+        <element tag="0010,1001" vr="PN" vm="2" len="30" name="OtherPatientNames">^DOMINIQUE\PAT-TROIS^DOMINIQUE</element>
+        <sequence tag="0010,1002" vr="SQ" card="1" len="126" name="OtherPatientIDsSequence">
+            <item card="4" len="118">
+                <element tag="0010,0020" vr="LO" vm="1" len="16" name="PatientID">279035121518989</element>
+                <element tag="0010,0021" vr="LO" vm="1" len="18" name="IssuerOfPatientID">ASIP-SANTE-INS-NIR</element>
+                <element tag="0010,0022" vr="CS" vm="1" len="4" name="TypeOfPatientID">TEXT</element>
+                <sequence tag="0010,0024" vr="SQ" card="1" len="48" name="IssuerOfPatientIDQualifiersSequence">
+                    <item card="2" len="40">
+                        <element tag="0040,0032" vr="UT" vm="1" len="20" name="UniversalEntityID">1.2.250.1.213.1.4.10</element>
+                        <element tag="0040,0033" vr="CS" vm="1" len="4" name="UniversalEntityIDType">ISO</element>
+                    </item>
+                </sequence>
+            </item>
+        </sequence>
+        <element tag="0010,4000" vr="LT" vm="1" len="6" name="PatientComments">63220</element>
+        <element tag="0020,000d" vr="UI" vm="1" len="26" name="StudyInstanceUID">1.2.250.1.213.4.5.2.1.101</element>
+        <element tag="0020,000e" vr="UI" vm="1" len="30" name="SeriesInstanceUID">1.2.250.1.213.4.5.2.2.101.259</element>
+        <element tag="0020,0010" vr="SH" vm="0" len="0" name="StudyID"></element>
+        <element tag="0020,0011" vr="IS" vm="1" len="2" name="SeriesNumber">59</element>
+        <element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">1</element>
+        <element tag="0040,a040" vr="CS" vm="1" len="10" name="ValueType">CONTAINER</element>
+        <sequence tag="0040,a043" vr="SQ" card="1" len="50" name="ConceptNameCodeSequence">
+            <item card="3" len="42">
+                <element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">113030</element>
+                <element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">DCM</element>
+                <element tag="0008,0104" vr="LO" vm="1" len="8" name="CodeMeaning">MANIFEST</element>
+            </item>
+        </sequence>
+        <element tag="0040,a050" vr="CS" vm="1" len="8" name="ContinuityOfContent">SEPARATE</element>
+        <sequence tag="0040,a370" vr="SQ" card="1" len="226" name="ReferencedRequestSequence">
+            <item card="10" len="218">
+                <element tag="0008,0050" vr="SH" vm="1" len="6" name="AccessionNumber">ACN101</element>
+                <sequence tag="0008,0051" vr="SQ" card="1" len="50" name="IssuerOfAccessionNumberSequence">
+                    <item card="2" len="42">
+                        <element tag="0040,0032" vr="UT" vm="1" len="22" name="UniversalEntityID">1.2.250.1.213.4.5.2.5</element>
+                        <element tag="0040,0033" vr="CS" vm="1" len="4" name="UniversalEntityIDType">ISO</element>
+                    </item>
+                </sequence>
+                <sequence tag="0008,1110" vr="SQ" card="0" len="0" name="ReferencedStudySequence">
+                </sequence>
+                <element tag="0020,000d" vr="UI" vm="1" len="26" name="StudyInstanceUID">1.2.250.1.213.4.5.2.1.101</element>
+                <element tag="0032,1060" vr="LO" vm="0" len="0" name="RequestedProcedureDescription"></element>
+                <sequence tag="0032,1064" vr="SQ" card="0" len="0" name="RequestedProcedureCodeSequence">
+                </sequence>
+                <sequence tag="0040,0026" vr="SQ" card="1" len="50" name="OrderPlacerIdentifierSequence">
+                    <item card="2" len="42">
+                        <element tag="0040,0032" vr="UT" vm="1" len="22" name="UniversalEntityID">1.2.250.1.213.4.5.2.6</element>
+                        <element tag="0040,0033" vr="CS" vm="1" len="4" name="UniversalEntityIDType">ISO</element>
+                    </item>
+                </sequence>
+                <element tag="0040,1001" vr="SH" vm="0" len="0" name="RequestedProcedureID"></element>
+                <element tag="0040,2016" vr="LO" vm="1" len="6" name="PlacerOrderNumberImagingServiceRequest">OPN101</element>
+                <element tag="0040,2017" vr="LO" vm="0" len="0" name="FillerOrderNumberImagingServiceRequest"></element>
+            </item>
+        </sequence>
+        <sequence tag="0040,a375" vr="SQ" card="1" len="330" name="CurrentRequestedProcedureEvidenceSequence">
+            <item card="2" len="322">
+                <sequence tag="0008,1115" vr="SQ" card="3" len="280" name="ReferencedSeriesSequence">
+                    <item card="4" len="272">
+                        <element tag="0008,1190" vr="UR" vm="1" len="104" name="RetrieveURL">http://localhost:4200/api/source/studies/1.2.250.1.213.4.5.2.1.101/series/1.2.250.1.213.4.5.2.2.101.201</element>
+                        <sequence tag="0008,1199" vr="SQ" card="1" len="102" name="ReferencedSOPSequence">
+                            <item card="5" len="94">
+                                <element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.2</element>
+                                <element tag="0008,1155" vr="UI" vm="1" len="32" name="ReferencedSOPInstanceUID">1.2.250.1.213.4.5.2.3.101.201.31</element>
+                                <element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">1</element>
+                            </item>
+                        </sequence>
+                        <element tag="0020,000e" vr="UI" vm="1" len="30" name="SeriesInstanceUID">1.2.250.1.213.4.5.2.2.101.201</element>
+                        <element tag="0020,0011" vr="IS" vm="1" len="4" name="SeriesNumber">1000</element>
+                    </item>
+                    <item card="4" len="272">
+                        <element tag="0008,1190" vr="UR" vm="1" len="104" name="RetrieveURL">http://localhost:4200/api/source/studies/1.2.250.1.213.4.5.2.1.101/series/1.2.250.1.213.4.5.2.2.101.202</element>
+                        <sequence tag="0008,1199" vr="SQ" card="1" len="102" name="ReferencedSOPSequence">
+                            <item card="6" len="94">
+                                <element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.2</element>
+                                <element tag="0008,1155" vr="UI" vm="1" len="32" name="ReferencedSOPInstanceUID">1.2.250.1.213.4.5.2.3.101.202.31</element>
+                                <element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">1</element>
+                                <sequence tag="0008,1199" vr="SQ" card="1" len="102" name="ReferencedSOPSequence">
+                                    <item card="4" len="94">
+                                        <element tag="0008,1155" vr="UI" vm="1" len="32" name="ReferencedSOPInstanceUID">1.2.250.1.213.4.5.2.3.101.299.31</element>
+                                        <element tag="0020,000e" vr="UI" vm="1" len="30" name="SeriesInstanceUID">1.2.250.1.213.4.5.2.2.101.299</element>
+                                        <sequence tag="0040,a043" vr="SQ" card="1" len="64" name="ConceptNameCodeSequence">
+                                            <item card="3" len="94">
+                                                <element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">113000</element>
+                                                <element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">DCM</element>
+                                                <element tag="0008,0104" vr="LO" vm="1" len="22" name="CodeMeaning">Of Interest</element>
+                                            </item>
+                                        </sequence>
+                                        <sequence tag="0040,a730" vr="SQ" card="2" len="392" name="ContentSequence">
+                                            <item card="1" len="94">
+                                                <element tag="0040,a160" vr="UT" vm="1" len="128" name="TextValue">Definition of key instance 1.2.250.1.213.4.5.2.3.101.202.31 associated with series 1.2.250.1.213.4.5.2.2.101.202</element>
+                                            </item>
+                                        </sequence>
+                                    </item>
+                                </sequence>
+                            </item>
+                        </sequence>
+                        <element tag="0020,000e" vr="UI" vm="1" len="30" name="SeriesInstanceUID">1.2.250.1.213.4.5.2.2.101.202</element>
+                        <element tag="0020,0011" vr="IS" vm="1" len="4" name="SeriesNumber">1001</element>
+                    </item>
+                    <item card="4" len="272">
+                        <element tag="0008,1190" vr="UR" vm="1" len="104" name="RetrieveURL">http://localhost:4200/api/source/studies/1.2.250.1.213.4.5.2.1.101/series/1.2.250.1.213.4.5.2.2.101.299</element>
+                        <sequence tag="0008,1199" vr="SQ" card="1" len="102" name="ReferencedSOPSequence">
+                            <item card="5" len="94">
+                                <element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.88.59</element>
+                                <element tag="0008,1155" vr="UI" vm="1" len="32" name="ReferencedSOPInstanceUID">1.2.250.1.213.4.5.2.3.101.299.31</element>
+                                <element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">1</element>
+                            </item>
+                        </sequence>
+                        <element tag="0020,000e" vr="UI" vm="1" len="30" name="SeriesInstanceUID">1.2.250.1.213.4.5.2.2.101.299</element>
+                        <element tag="0020,0011" vr="IS" vm="1" len="4" name="SeriesNumber">1003</element>
+                    </item>
+                </sequence>
+                <element tag="0020,000d" vr="UI" vm="1" len="26" name="StudyInstanceUID">1.2.250.1.213.4.5.2.1.101</element>
+            </item>
+        </sequence>
+        <sequence tag="0040,a730" vr="SQ" card="3" len="392" name="ContentSequence">
+            <item card="3" len="140">
+                <sequence tag="0008,1199" vr="SQ" card="1" len="102" name="ReferencedSOPSequence">
+                    <item card="4" len="94">
+                        <element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.2</element>
+                        <element tag="0008,1155" vr="UI" vm="1" len="32" name="ReferencedSOPInstanceUID">1.2.250.1.213.4.5.2.3.101.201.31</element>
+                        <element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">1</element>
+                    </item>
+                </sequence>
+                <element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+                <element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+            </item>
+            <item card="3" len="140">
+                <sequence tag="0008,1199" vr="SQ" card="1" len="102" name="ReferencedSOPSequence">
+                    <item card="4" len="94">
+                        <element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.2</element>
+                        <element tag="0008,1155" vr="UI" vm="1" len="32" name="ReferencedSOPInstanceUID">1.2.250.1.213.4.5.2.3.101.202.31</element>
+                        <element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">1</element>
+                    </item>
+                </sequence>
+                <element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+                <element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+            </item>
+            <item card="3" len="140">
+                <sequence tag="0008,1199" vr="SQ" card="1" len="102" name="ReferencedSOPSequence">
+                    <item card="4" len="94">
+                        <element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.88.59</element>
+                        <element tag="0008,1155" vr="UI" vm="1" len="32" name="ReferencedSOPInstanceUID">1.2.250.1.213.4.5.2.3.101.299.31</element>
+                        <element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">1</element>
+                    </item>
+                </sequence>
+                <element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+                <element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">COMPOSITE</element>
+            </item>
+            <item card="4" len="236">
+                <element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+                <element tag="0040,a040" vr="CS" vm="1" len="4" name="ValueType">TEXT</element>
+                <sequence tag="0040,a043" vr="SQ" card="1" len="64" name="ConceptNameCodeSequence">
+                    <item card="3" len="56">
+                        <element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">113012</element>
+                        <element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">DCM</element>
+                        <element tag="0008,0104" vr="LO" vm="1" len="22" name="CodeMeaning">Key Object Description</element>
+                    </item>
+                </sequence>
+                <element tag="0040,a160" vr="UT" vm="1" len="128" name="TextValue">Examen : Examen E&#10;Acte = MN glande thyroïde ; incidences avec I-131 IV&#10;S�rie-1.2.250.1.213.4.5.2.2.105.201 : NM @ : Serie E1&#10;</element>
+            </item>
+        </sequence>
+    </data-set>
+</file-format>
