@@ -1,7 +1,6 @@
 name: Workflow Validate
 on:
   workflow_call:
-  push:
   workflow_dispatch:
 jobs:
   run-sushi-tests_gitHubPages:
