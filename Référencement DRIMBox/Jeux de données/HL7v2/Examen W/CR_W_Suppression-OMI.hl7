@@ -1,0 +1,8 @@
+MSH|^~\&|{{applicationSupplier}}|{{facilitySupplier}}|{{applicationReceiver}}|{{facilityReceiver}}|{{idMessage}}||OMI^O23^OMI_O23|001|P|2.5.1||||||||
+PID|||279035121518989^^^ASIP-SANTE-INS-NIR&1.2.250.1.213.1.4.10&ISO^INS^^~IPP101^^^AUT-AFFECTATION&1.2.250.1.213.4.5.2.4&ISO^PI||PAT-TROIS^DOMINIQUE^DOMINIQUE^^^^L~PAT-TROIS^^^^^^D||19790328|F|||^^^^^^BDL^^63220~28 Av de Breteuil^Escalier A^PARIS^^75007^FRA^H||||||||||||C||||||||N|VALI
+PV1|1|I|UFNEPH||||||||||||||||000897406^^^AUT-AFFECTATION&120456789&M^VN^^20210409
+ORC|CA|
+TQ1|||||||20240912||
+OBR|1|984375862^EntityNAME|09011600123^EntityNAME|18748-4^CR d'imagerie médicale^LN||||||||||||899700367909^DOC0036790^KIT^^^DR^^^^D^^^RPPS^||09011600123|||||||F|||||||899700367909&DOC0036790&KIT
+OBX|1|ST|Modification Examen Imagerie||||||||||||||
+IPC|ACN124|PACS_SOURCE|1.2.250.1.213.4.5.2.1.124|12346789|||||

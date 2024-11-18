@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ListeBlancheDRIM-M xmlns="https://github.com/ansforge/DRIM-M_DATA" versionFormat="1.0.0">
+    <DateDeGeneration>2024-04-22T11:08:12Z</DateDeGeneration>
+    <ListeDomaines>
+        <Domaine>
+		    <Identifiant>1</Identifiant>
+            <db>db1.111.mesimagesmedicales.fr</db>
+			<vi>vi1.111.mesimagesmedicales.fr</vi>
+            <Denomination>Operateur 01 test</Denomination>
+            <DNCertificatOperateur>CN=db1.111.mesimagesmedicales.fr,OU=31598513500187,O=editeur,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>supportdrim-m@op01.fr, 07 33 65 18 37</SupportContact>
+            <DateMAJ>2024-04-23T20:36:12Z</DateMAJ>
+        </Domaine>
+		<Domaine>
+		    <Identifiant>1</Identifiant>
+            <db>db1.112.mesimagesmedicales.fr</db>
+			<vi>vi1.112.mesimagesmedicales.fr</vi>
+            <Denomination>Operateur 01 test</Denomination>
+            <DNCertificatOperateur>CN=db1.112.mesimagesmedicales.fr,OU=47998513507810,O=editeur,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>supportdrim-m@op01.fr, 07 33 65 18 37</SupportContact>
+            <DateMAJ>2024-04-23T20:36:12Z</DateMAJ>
+        </Domaine>
+		<Domaine>
+		    <Identifiant>2</Identifiant>
+            <db>db1.345.mesimagesmedicales.fr</db>
+			<vi>vi1.345.mesimagesmedicales.fr</vi>
+            <Denomination>Operateur 02 test</Denomination>
+            <DNCertificatOperateur>CN=db1.345.mesimagesmedicales.fr,OU=49188397100039,O=editeur,ST=Marseille (13),C=FR</DNCertificatOperateur>
+            <SupportContact>supportdrim-m@op02.com, 06 32 44 09 09</SupportContact>
+            <DateMAJ>2024-04-23T20:36:12Z</DateMAJ>
+        </Domaine>
+		<Domaine>
+		    <Identifiant>2</Identifiant>
+            <db>db2.345.mesimagesmedicales.fr</db>
+			<vi>vi2.345.mesimagesmedicales.fr</vi>
+            <Denomination>Operateur 02 test</Denomination>
+            <DNCertificatOperateur>CN=db2.345.mesimagesmedicales.fr,OU=49188397100039,O=editeur,ST=Marseille (13),C=FR</DNCertificatOperateur>
+            <SupportContact>supportdrim-m@op02.com, 06 32 44 09 09</SupportContact>
+            <DateMAJ>2024-04-23T20:36:12Z</DateMAJ>
+        </Domaine>
+		<Domaine>
+		    <Identifiant>3</Identifiant>
+            <db>db1.867.mesimagesmedicales.fr</db>
+			<vi>vi1.867.mesimagesmedicales.fr</vi>
+            <Denomination>Operateur 03 test</Denomination>
+            <DNCertificatOperateur>CN=db1.867.mesimagesmedicales.fr,OU=31954523700765,O=editeur,ST=Lyon(69),C=FR</DNCertificatOperateur>
+            <SupportContact>supportdrim-m@op03.fr, 06 44 87 98 07</SupportContact>
+            <DateMAJ>2024-04-25T09:24:12Z</DateMAJ>
+        </Domaine>
+		<Domaine>
+		    <Identifiant>3</Identifiant>
+            <db>db2.867.mesimagesmedicales.fr</db>
+			<vi>vi2.867.mesimagesmedicales.fr</vi>
+            <Denomination>Operateur 03 test</Denomination>
+            <DNCertificatOperateur>CN=db2.867.mesimagesmedicales.fr,OU=31954523700765,O=editeur,ST=Lyon(69),C=FR</DNCertificatOperateur>
+            <SupportContact>supportdrim-m@op03.fr, 06 44 87 98 07</SupportContact>
+            <DateMAJ>2024-04-25T09:24:12Z</DateMAJ>
+        </Domaine>
+    </ListeDomaines>
+	</ListeBlancheDRIM-M>
+	
+
+
+
