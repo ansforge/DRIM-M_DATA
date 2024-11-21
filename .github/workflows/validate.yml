@@ -11,4 +11,5 @@ jobs:
           path: source
       - uses: ansforge/ci-sis-action-validate@patch-sansImageDicom
         with:      
-          repo: "./source"   
+          repo: "./source"
+          except: "Images DICOM"
