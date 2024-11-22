@@ -2,13 +2,15 @@
 
 ## SpeedTest
 
-Cet outil permet de mesure les performances d'un PACS en exploitation. Il déclenche une requête C-MOVE (par défaut sur le StudyInstanceUID de l'examen de référence ANS: 1.2.250.1.213.4.5.2.1.199) et se met à l'écoute, via un STORE-CSP de la réponse du PACS.
-Il mesure alors:
--  le temps de réception de la première image
--  la quantité de données transférée
--  le temps total de récupération de l'examen et en déduit le débit offert par le PACS
+Ce script permet de mesurer les performances d'un système PACS associé à une DRIMBox. Initialement construit afin de fournir un exemple d'implémentation de l'exigence DB.SO.102 issue de la spécification projet DRIMBox, il peut être utilisé aussi bien dans le cadre du processus d'homologation qu'en exploitation. 
 
-Les images reçues du PACS sont ignorées.
+Le fonctionnement du script implique le déclenchement une requête C-MOVE (par défaut sur le StudyInstanceUID de l'examen de référence ANS: 1.2.250.1.213.4.5.2.1.199) à destination du système PACS et une interprétation de la réponse émise en retour.
+Le script récupère alors:
+-  une mesure de temps associée à la réception de la première image
+-  la quantité de données transférée
+-  le temps total de récupération de l'examen, duquel peut être déduit le débit offert par le système PACS.
+
+Le contenu des images reçues en provenance du PACS est ignoré par le script.
 
 ### Prérequis
 
@@ -90,8 +92,4 @@ Latency (first image): 0:00:00.441602
 Throughput: 139.50385578552545 Mbps
 ------------------------------------------------------------------------------------
 ```
-
-## Contact
-
-Pour toute information complémentaire, merci de contacter ans-forge@esante.gouv.fr
 

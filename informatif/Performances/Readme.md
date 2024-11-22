@@ -1,6 +1,3 @@
-Ce répertoire contient un jeu d'images CT de 1300 images compressées en JPEG-LS Lossless  et d’une taille de 200 Megaoctets.
-Ce jeu de données servivra de base pour les tests de performance lors des tests d'homologation SEGUR.
-
 Les tests de performances mentionnés sont associés à un ensemble d'exigences de test spécifiant les workflows suivants :
 - DRIMBox consommatrice :
 	- Latence liée à la visualisation d'une série d'images
