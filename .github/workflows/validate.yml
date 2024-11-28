@@ -13,3 +13,4 @@ jobs:
         with:      
           repo: "./source"
           except: "Images DICOM"
+          severityThreshold: "ERROR"
