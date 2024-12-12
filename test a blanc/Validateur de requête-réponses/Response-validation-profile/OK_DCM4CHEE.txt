@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Tue, 28 Mar 2023 08:50:09 GMT
+Server: Apache
+Strict-Transport-Security: max-age=63072000; includeSubdomains;
+Access-Control-Allow-Headers: origin, content-type, accept, authorization
+Access-Control-Expose-Headers: content-type, warning
+Access-Control-Allow-Origin: *
+ETag: "1330673892"
+Last-Modified: Tue, 14 Feb 2023 09:45:19 GMT
+Access-Control-Allow-Credentials: true
+Content-Type: multipart/related;start="<4d395c57-31ea-4991-9473-4e775eead1bd@resteasy-multipart>";transfer-syntax=1.2.840.10008.1.2.1;type="application/dicom"; boundary=7544a517-4f5a-4007-9762-690998213829
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, HEAD
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+

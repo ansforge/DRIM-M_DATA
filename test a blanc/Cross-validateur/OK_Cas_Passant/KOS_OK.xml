@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<file-format>
+<meta-header xfer="1.2.840.10008.1.2.1" name="Little Endian Explicit">
+<element tag="0002,0000" vr="UL" vm="1" len="4" name="FileMetaInformationGroupLength">208</element>
+<element tag="0002,0001" vr="OB" vm="1" len="2" name="FileMetaInformationVersion" binary="hidden"></element>
+<element tag="0002,0002" vr="UI" vm="1" len="30" name="MediaStorageSOPClassUID">1.2.840.10008.5.1.4.1.1.88.59</element>
+<element tag="0002,0003" vr="UI" vm="1" len="60" name="MediaStorageSOPInstanceUID">1.2.250.1.59.844.2.1234567890123.1276394488319797597.955.1.1</element>
+<element tag="0002,0010" vr="UI" vm="1" len="20" name="TransferSyntaxUID">1.2.840.10008.1.2.1</element>
+<element tag="0002,0012" vr="UI" vm="1" len="28" name="ImplementationClassUID">1.2.276.0.7230010.3.0.3.6.7</element>
+<element tag="0002,0013" vr="SH" vm="1" len="16" name="ImplementationVersionName">OFFIS_DCMTK_367</element>
+</meta-header>
+<data-set xfer="1.2.840.10008.1.2.1" name="Little Endian Explicit">
+<element tag="0008,0005" vr="CS" vm="1" len="10" name="SpecificCharacterSet">ISO_IR 100</element>
+<element tag="0008,0012" vr="DA" vm="1" len="8" name="InstanceCreationDate">20230926</element>
+<element tag="0008,0013" vr="TM" vm="1" len="6" name="InstanceCreationTime">122711</element>
+<element tag="0008,0016" vr="UI" vm="1" len="30" name="SOPClassUID">1.2.840.10008.5.1.4.1.1.88.59</element>
+<element tag="0008,0018" vr="UI" vm="1" len="60" name="SOPInstanceUID">1.2.250.1.59.844.2.1234567890123.1276394488319797597.955.1.1</element>
+<element tag="0008,0020" vr="DA" vm="1" len="8" name="StudyDate">20221215</element>
+<element tag="0008,0021" vr="DA" vm="1" len="8" name="SeriesDate">20230926</element>
+<element tag="0008,0023" vr="DA" vm="1" len="8" name="ContentDate">20230926</element>
+<element tag="0008,0030" vr="TM" vm="1" len="14" name="StudyTime">194622.300000</element>
+<element tag="0008,0031" vr="TM" vm="1" len="6" name="SeriesTime">122711</element>
+<element tag="0008,0033" vr="TM" vm="1" len="6" name="ContentTime">122711</element>
+<element tag="0008,0050" vr="SH" vm="0" len="0" name="AccessionNumber"></element>
+<element tag="0008,0060" vr="CS" vm="1" len="2" name="Modality">KO</element>
+<element tag="0008,0070" vr="LO" vm="1" len="12" name="Manufacturer">NEHS DIGITAL</element>
+<element tag="0008,0080" vr="LO" vm="1" len="10" name="InstitutionName">BCOM^^^^^^^^^499700367909006</element>
+<element tag="0008,0090" vr="PN" vm="0" len="0" name="ReferringPhysicianName"></element>
+<element tag="0008,0201" vr="SH" vm="1" len="6" name="TimezoneOffsetFromUTC">+0200</element>
+<element tag="0008,1030" vr="LO" vm="1" len="6" name="StudyDescription">Exam A</element>
+<sequence tag="0008,1111" vr="SQ" card="0" len="0" name="ReferencedPerformedProcedureStepSequence">
+</sequence>
+<element tag="0010,0010" vr="PN" vm="1" len="18" name="PatientName">PAT-HUIT^FRANCOISE</element>
+<element tag="0010,0020" vr="LO" vm="1" len="16" name="PatientID">274075176079430</element>
+<element tag="0010,0021" vr="LO" vm="1" len="18" name="IssuerOfPatientID">ASIP-SANTE-INS-NIR</element>
+<sequence tag="0010,0024" vr="SQ" card="1" len="52" name="IssuerOfPatientIDQualifiersSequence">
+<item card="2" len="44">
+<element tag="0040,0032" vr="UT" vm="1" len="20" name="UniversalEntityID">1.2.250.1.213.1.4.10</element>
+<element tag="0040,0033" vr="CS" vm="1" len="4" name="UniversalEntityIDType">ISO</element>
+</item>
+</sequence>
+<element tag="0010,0030" vr="DA" vm="1" len="8" name="PatientBirthDate">19960113</element>
+<element tag="0010,0040" vr="CS" vm="1" len="2" name="PatientSex">M</element>
+<element tag="0010,1001" vr="PN" vm="1" len="18" name="OtherPatientNames">^FRANCOISE</element>
+<sequence tag="0010,1002" vr="SQ" card="1" len="156" name="OtherPatientIDsSequence">
+<item card="4" len="148">
+<element tag="0010,0020" vr="LO" vm="1" len="16" name="PatientID">274075176079430</element>
+<element tag="0010,0021" vr="LO" vm="1" len="40" name="IssuerOfPatientID">&#10;                    ASIP-SANTE-INS-NIR</element>
+<element tag="0010,0022" vr="CS" vm="1" len="4" name="TypeOfPatientID">TEXT</element>
+<sequence tag="0010,0024" vr="SQ" card="1" len="52" name="IssuerOfPatientIDQualifiersSequence">
+<item card="2" len="44">
+<element tag="0040,0032" vr="UT" vm="1" len="20" name="UniversalEntityID">1.2.250.1.213.1.4.10</element>
+<element tag="0040,0033" vr="CS" vm="1" len="4" name="UniversalEntityIDType">ISO</element>
+</item>
+</sequence>
+</item>
+</sequence>
+<element tag="0010,4000" vr="LT" vm="1" len="6" name="PatientComments">63220</element>
+<element tag="0020,000d" vr="UI" vm="1" len="62" name="StudyInstanceUID">1.3.6.1.4.1.5962.99.1.3711725607.829148806.1687338938407.3.18</element>
+<element tag="0020,000e" vr="UI" vm="1" len="58" name="SeriesInstanceUID">1.2.250.1.59.844.2.1234567890123.1276394488319797597.955.1</element>
+<element tag="0020,0010" vr="SH" vm="0" len="0" name="StudyID"></element>
+<element tag="0020,0011" vr="IS" vm="1" len="2" name="SeriesNumber">59</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">1</element>
+<element tag="0040,a040" vr="CS" vm="1" len="10" name="ValueType">CONTAINER</element>
+<sequence tag="0040,a043" vr="SQ" card="1" len="50" name="ConceptNameCodeSequence">
+<item card="3" len="42">
+<element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">113030</element>
+<element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">DCM</element>
+<element tag="0008,0104" vr="LO" vm="1" len="8" name="CodeMeaning">MANIFEST</element>
+</item>
+</sequence>
+<element tag="0040,a050" vr="CS" vm="1" len="8" name="ContinuityOfContent">SEPARATE</element>
+<sequence tag="0040,a370" vr="SQ" card="1" len="300" name="ReferencedRequestSequence">
+<item card="10" len="292">
+<element tag="0008,0050" vr="SH" vm="1" len="16" name="AccessionNumber">725229536725008</element>
+<sequence tag="0008,0051" vr="SQ" card="1" len="52" name="IssuerOfAccessionNumberSequence">
+<item card="2" len="44">
+<element tag="0040,0032" vr="UT" vm="1" len="20" name="UniversalEntityID">1.2.840.113619.6.198</element>
+<element tag="0040,0033" vr="CS" vm="1" len="4" name="UniversalEntityIDType">ISO</element>
+</item>
+</sequence>
+<sequence tag="0008,1110" vr="SQ" card="0" len="0" name="ReferencedStudySequence">
+</sequence>
+<element tag="0020,000d" vr="UI" vm="1" len="62" name="StudyInstanceUID">1.3.6.1.4.1.5962.99.1.3711725607.829148806.1687338938407.3.18</element>
+<element tag="0032,1060" vr="LO" vm="0" len="0" name="RequestedProcedureDescription"></element>
+<sequence tag="0032,1064" vr="SQ" card="0" len="0" name="RequestedProcedureCodeSequence">
+</sequence>
+<sequence tag="0040,0026" vr="SQ" card="1" len="54" name="OrderPlacerIdentifierSequence">
+<item card="2" len="46">
+<element tag="0040,0032" vr="UT" vm="1" len="22" name="UniversalEntityID">2.16.840.1.113883.6.98</element>
+<element tag="0040,0033" vr="CS" vm="1" len="4" name="UniversalEntityIDType">ISO</element>
+</item>
+</sequence>
+<element tag="0040,1001" vr="SH" vm="0" len="0" name="RequestedProcedureID"></element>
+<element tag="0040,2016" vr="LO" vm="1" len="12" name="PlacerOrderNumberImagingServiceRequest">12989855968</element>
+<element tag="0040,2017" vr="LO" vm="0" len="0" name="FillerOrderNumberImagingServiceRequest"></element>
+</item>
+</sequence>
+<sequence tag="0040,a375" vr="SQ" card="1" len="3054" name="CurrentRequestedProcedureEvidenceSequence">
+<item card="2" len="3046">
+<sequence tag="0008,1115" vr="SQ" card="2" len="2964" name="ReferencedSeriesSequence">
+<item card="4" len="1478">
+<element tag="0008,1190" vr="UR" vm="1" len="208" name="RetrieveURL">&#10;                            http://79.137.56.229:10368/drim-so/v1/rs/studies/1.3.6.1.4.1.5962.99.1.3711725607.829148806.1687338938407.3.18/series/1.3.6.1.4.1.5962.99.1.3711725607.829148806.1687338938407.6.18</element>
+<sequence tag="0008,1199" vr="SQ" card="10" len="1160" name="ReferencedSOPSequence">
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1661.1687347921.4130728</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">52</element>
+</item>
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1662.1687347921.4312008</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">53</element>
+</item>
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1663.1687347921.4507768</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">54</element>
+</item>
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1664.1687347921.4709098</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">55</element>
+</item>
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1665.1687347921.4904598</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">56</element>
+</item>
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1666.1687347921.5087538</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">57</element>
+</item>
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1667.1687347921.5271368</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">58</element>
+</item>
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1668.1687347921.5459838</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">59</element>
+</item>
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1669.1687347921.5653838</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">60</element>
+</item>
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1671.1687347921.6030238</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">61</element>
+</item>
+</sequence>
+<element tag="0020,000e" vr="UI" vm="1" len="62" name="SeriesInstanceUID">1.3.6.1.4.1.5962.99.1.3711725607.829148806.1687338938407.6.18</element>
+<element tag="0040,e011" vr="UI" vm="1" len="8" name="RetrieveLocationUID">1.2.3.4</element>
+</item>
+<item card="4" len="1470">
+<element tag="0008,1190" vr="UR" vm="1" len="208" name="RetrieveURL">&#10;                            http://79.137.56.229:10368/drim-so/v1/rs/studies/1.3.6.1.4.1.5962.99.1.3711725607.829148806.1687338938407.3.18/series/1.3.6.1.4.1.5962.99.1.3711725607.829148806.1687338938407.6.28</element>
+<sequence tag="0008,1199" vr="SQ" card="10" len="1152" name="ReferencedSOPSequence">
+<item card="3" len="106">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="54" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1694.1687347922.326278</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">82</element>
+</item>
+<item card="3" len="106">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="54" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1695.1687347922.507988</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">83</element>
+</item>
+<item card="3" len="106">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="54" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1696.1687347922.697748</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">84</element>
+</item>
+<item card="3" len="106">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="54" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1697.1687347922.880538</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">85</element>
+</item>
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1698.1687347922.1064308</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">86</element>
+</item>
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1699.1687347922.1246118</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">87</element>
+</item>
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1700.1687347922.1423508</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">88</element>
+</item>
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1701.1687347922.1609728</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">89</element>
+</item>
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1702.1687347922.1790668</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">90</element>
+</item>
+<item card="3" len="108">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1704.1687347922.2167558</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">91</element>
+</item>
+</sequence>
+<element tag="0020,000e" vr="UI" vm="1" len="62" name="SeriesInstanceUID">1.3.6.1.4.1.5962.99.1.3711725607.829148806.1687338938407.6.28</element>
+<element tag="0040,e011" vr="UI" vm="1" len="8" name="RetrieveLocationUID">1.2.3.4</element>
+</item>
+</sequence>
+<element tag="0020,000d" vr="UI" vm="1" len="62" name="StudyInstanceUID">1.3.6.1.4.1.5962.99.1.3711725607.829148806.1687338938407.3.18</element>
+</item>
+</sequence>
+<sequence tag="0040,a730" vr="SQ" card="21" len="3576" name="ContentSequence">
+<item card="4" len="456">
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="4" name="ValueType">TEXT</element>
+<sequence tag="0040,a043" vr="SQ" card="1" len="92" name="ConceptNameCodeSequence">
+<item card="3" len="84">
+<element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">113012</element>
+<element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">DCM</element>
+<element tag="0008,0104" vr="LO" vm="1" len="50" name="CodeMeaning">Key&#10;                            Object Description</element>
+</item>
+</sequence>
+<element tag="0040,a160" vr="UT" vm="1" len="312" name="TextValue">Examen :&#10;                    Exam&#10;                    A&#13;S�rie-1.3.6.1.4.1.5962.99.1.3711725607.829148806.1687338938407.6.18&#10;                    : MR @ : T2 Ax Space Iso&#10;                    RT&#13;S�rie-1.3.6.1.4.1.5962.99.1.3711725607.829148806.1687338938407.6.28&#10;                    : MR @ : T2 Ax Space Iso RT</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1661.1687347921.4130728</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1662.1687347921.4312008</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1663.1687347921.4507768</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1664.1687347921.4709098</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1665.1687347921.4904598</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1666.1687347921.5087538</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1667.1687347921.5271368</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1668.1687347921.5459838</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1669.1687347921.5653838</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1671.1687347921.6030238</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="146">
+<sequence tag="0008,1199" vr="SQ" card="1" len="104" name="ReferencedSOPSequence">
+<item card="2" len="96">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="54" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1694.1687347922.326278</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="146">
+<sequence tag="0008,1199" vr="SQ" card="1" len="104" name="ReferencedSOPSequence">
+<item card="2" len="96">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="54" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1695.1687347922.507988</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="146">
+<sequence tag="0008,1199" vr="SQ" card="1" len="104" name="ReferencedSOPSequence">
+<item card="2" len="96">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="54" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1696.1687347922.697748</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="146">
+<sequence tag="0008,1199" vr="SQ" card="1" len="104" name="ReferencedSOPSequence">
+<item card="2" len="96">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="54" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1697.1687347922.880538</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1698.1687347922.1064308</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1699.1687347922.1246118</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1700.1687347922.1423508</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1701.1687347922.1609728</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1702.1687347922.1790668</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+<item card="3" len="148">
+<sequence tag="0008,1199" vr="SQ" card="1" len="106" name="ReferencedSOPSequence">
+<item card="2" len="98">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1704.1687347922.2167558</element>
+</item>
+</sequence>
+<element tag="0040,a010" vr="CS" vm="1" len="8" name="RelationshipType">CONTAINS</element>
+<element tag="0040,a040" vr="CS" vm="1" len="6" name="ValueType">IMAGE</element>
+</item>
+</sequence>
+</data-set>
+</file-format>

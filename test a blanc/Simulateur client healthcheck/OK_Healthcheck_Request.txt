@@ -1,0 +1,5 @@
+GET https://46.105.63.141:10375/dcm4chee-arc/aets/SERVEUR_WADO/rs HTTP/1.1
+accept: application/json
+Host: 46.105.63.141:10375
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.7.0_352)

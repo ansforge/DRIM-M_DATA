@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file-format>
+<meta-header xfer="1.2.840.10008.1.2.1" name="Little Endian Explicit">
+<element tag="0002,0000" vr="UL" vm="1" len="4" name="FileMetaInformationGroupLength">224</element>
+<element tag="0002,0001" vr="OB" vm="1" len="2" name="FileMetaInformationVersion" binary="hidden"></element>
+<element tag="0002,0002" vr="UI" vm="1" len="26" name="MediaStorageSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0002,0003" vr="UI" vm="1" len="56" name="MediaStorageSOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1661.1687347921.4130728</element>
+<element tag="0002,0010" vr="UI" vm="1" len="22" name="TransferSyntaxUID">1.2.840.10008.1.2.4.50</element>
+<element tag="0002,0012" vr="UI" vm="1" len="28" name="ImplementationClassUID">1.2.276.0.7230010.3.0.3.6.4</element>
+<element tag="0002,0013" vr="SH" vm="1" len="16" name="ImplementationVersionName">OFFIS_DCMTK_364</element>
+<element tag="0002,0016" vr="AE" vm="1" len="14" name="SourceApplicationEntityTitle">LAP-202_11112</element>
+</meta-header>
+<data-set xfer="1.2.840.10008.1.2.4.50" name="JPEG Baseline">
+<element tag="0008,0008" vr="CS" vm="8" len="44" name="ImageType">DERIVED\PRIMARY\M\NORM\DIS3D\SH\FIL\MFSPLIT</element>
+<element tag="0008,0012" vr="DA" vm="1" len="8" name="InstanceCreationDate">20221215</element>
+<element tag="0008,0013" vr="TM" vm="1" len="14" name="InstanceCreationTime">195644.855000</element>
+<element tag="0008,0016" vr="UI" vm="1" len="26" name="SOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,0018" vr="UI" vm="1" len="56" name="SOPInstanceUID">1.2.276.0.7230010.3.1.4.8323329.1661.1687347921.4130728</element>
+<element tag="0008,0020" vr="DA" vm="1" len="8" name="StudyDate">20221215</element>
+<element tag="0008,0021" vr="DA" vm="1" len="8" name="SeriesDate">20221215</element>
+<element tag="0008,0022" vr="DA" vm="1" len="8" name="AcquisitionDate">20221215</element>
+<element tag="0008,0023" vr="DA" vm="1" len="8" name="ContentDate">20221215</element>
+<element tag="0008,002a" vr="DT" vm="1" len="22" name="AcquisitionDateTime">20221215195644.855000</element>
+<element tag="0008,0030" vr="TM" vm="1" len="14" name="StudyTime">194622.300000</element>
+<element tag="0008,0031" vr="TM" vm="1" len="14" name="SeriesTime">200103.787000</element>
+<element tag="0008,0032" vr="TM" vm="1" len="14" name="AcquisitionTime">195644.855000</element>
+<element tag="0008,0033" vr="TM" vm="1" len="14" name="ContentTime">200104.379000</element>
+<element tag="0008,0050" vr="SH" vm="1" len="16" name="AccessionNumber">725229536725008</element>
+<element tag="0008,0060" vr="CS" vm="1" len="2" name="Modality">MR</element>
+<element tag="0008,0070" vr="LO" vm="1" len="20" name="Manufacturer">Siemens Healthineers</element>
+<element tag="0008,0090" vr="PN" vm="0" len="0" name="ReferringPhysicianName"></element>
+<element tag="0008,1010" vr="SH" vm="1" len="12" name="StationName">StationTest</element>
+<element tag="0008,1030" vr="LO" vm="1" len="6" name="StudyDescription">Exam A</element>
+<element tag="0008,103e" vr="LO" vm="1" len="18" name="SeriesDescription">T2 Ax Space Iso RT</element>
+<element tag="0008,1090" vr="LO" vm="1" len="14" name="ManufacturerModelName">MAGNETOM Sola</element>
+<element tag="0008,2111" vr="ST" vm="1" len="86" name="DerivationDescription">Lossy compression with JPEG baseline, IJG quality factor 90, compression ratio 23.0652</element>
+<sequence tag="0008,2112" vr="SQ" card="1" len="190" name="SourceImageSequence">
+<item card="3" len="182">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="62" name="ReferencedSOPInstanceUID">1.3.6.1.4.1.5962.99.1.3711725607.829148806.1687338938407.58.0</element>
+<sequence tag="0040,a170" vr="SQ" card="1" len="66" name="PurposeOfReferenceCodeSequence">
+<item card="3" len="58">
+<element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">121320</element>
+<element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">DCM</element>
+<element tag="0008,0104" vr="LO" vm="1" len="24" name="CodeMeaning">Uncompressed predecessor</element>
+</item>
+</sequence>
+</item>
+</sequence>
+<sequence tag="0008,9215" vr="SQ" card="1" len="60" name="DerivationCodeSequence">
+<item card="3" len="52">
+<element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">113040</element>
+<element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">DCM</element>
+<element tag="0008,0104" vr="LO" vm="1" len="18" name="CodeMeaning">Lossy Compression</element>
+</item>
+</sequence>
+<element tag="0010,0010" vr="PN" vm="1" len="18" name="PatientName">PAT-HUIT^Francoise</element>
+<element tag="0010,0020" vr="LO" vm="1" len="18" name="PatientID">62702897707386938</element>
+<element tag="0010,0030" vr="DA" vm="1" len="8" name="PatientBirthDate">19740702</element>
+<element tag="0010,0040" vr="CS" vm="1" len="2" name="PatientSex">M</element>
+<element tag="0010,1010" vr="AS" vm="1" len="4" name="PatientAge">023Y</element>
+<element tag="0010,1020" vr="DS" vm="1" len="4" name="PatientSize">1.7</element>
+<element tag="0010,1030" vr="DS" vm="1" len="2" name="PatientWeight">70</element>
+<element tag="0012,0062" vr="CS" vm="1" len="4" name="PatientIdentityRemoved">YES</element>
+<element tag="0012,0063" vr="LO" vm="9" len="200" name="DeidentificationMethod">Deidentified\Descriptors retained\Patient Characteristics retained\Device identity retained\Institution identity removed\Dates retained\Structured content retained\Unsafe private removed\UIDs remapped</element>
+<sequence tag="0012,0064" vr="SQ" card="8" len="618" name="DeidentificationMethodCodeSequence">
+<item card="3" len="76">
+<element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">113100</element>
+<element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">DCM</element>
+<element tag="0008,0104" vr="LO" vm="1" len="42" name="CodeMeaning">Basic Application Confidentiality Profile</element>
+</item>
+<item card="3" len="68">
+<element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">210005</element>
+<element tag="0008,0102" vr="SH" vm="1" len="6" name="CodingSchemeDesignator">99PMP</element>
+<element tag="0008,0104" vr="LO" vm="1" len="32" name="CodeMeaning">Retain all descriptors unchanged</element>
+</item>
+<item card="3" len="72">
+<element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">113108</element>
+<element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">DCM</element>
+<element tag="0008,0104" vr="LO" vm="1" len="38" name="CodeMeaning">Retain Patient Characteristics Option</element>
+</item>
+<item card="3" len="64">
+<element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">113109</element>
+<element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">DCM</element>
+<element tag="0008,0104" vr="LO" vm="1" len="30" name="CodeMeaning">Retain Device Identity Option</element>
+</item>
+<item card="3" len="92">
+<element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">113106</element>
+<element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">DCM</element>
+<element tag="0008,0104" vr="LO" vm="1" len="58" name="CodeMeaning">Retain Longitudinal Temporal Information Full Dates Option</element>
+</item>
+<item card="3" len="76">
+<element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">210011</element>
+<element tag="0008,0102" vr="SH" vm="1" len="6" name="CodingSchemeDesignator">99PMP</element>
+<element tag="0008,0104" vr="LO" vm="1" len="40" name="CodeMeaning">Retain all structured content unchanged</element>
+</item>
+<item card="3" len="60">
+<element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">113111</element>
+<element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">DCM</element>
+<element tag="0008,0104" vr="LO" vm="1" len="26" name="CodeMeaning">Retain Safe Private Option</element>
+</item>
+<item card="3" len="46">
+<element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">210001</element>
+<element tag="0008,0102" vr="SH" vm="1" len="6" name="CodingSchemeDesignator">99PMP</element>
+<element tag="0008,0104" vr="LO" vm="1" len="10" name="CodeMeaning">Remap UIDs</element>
+</item>
+</sequence>
+<element tag="0018,0015" vr="CS" vm="1" len="8" name="BodyPartExamined">PROSTATE</element>
+<element tag="0018,0020" vr="CS" vm="1" len="2" name="ScanningSequence">SE</element>
+<element tag="0018,0021" vr="CS" vm="2" len="6" name="SequenceVariant">SP\SK</element>
+<element tag="0018,0022" vr="CS" vm="2" len="8" name="ScanOptions">PFP\PER</element>
+<element tag="0018,0023" vr="CS" vm="1" len="2" name="MRAcquisitionType">3D</element>
+<element tag="0018,0024" vr="SH" vm="1" len="10" name="SequenceName">*spcR_100</element>
+<element tag="0018,0025" vr="CS" vm="1" len="2" name="AngioFlag">N</element>
+<element tag="0018,0050" vr="DS" vm="1" len="2" name="SliceThickness">2</element>
+<element tag="0018,0080" vr="DS" vm="1" len="4" name="RepetitionTime">1400</element>
+<element tag="0018,0081" vr="DS" vm="1" len="2" name="EchoTime">95</element>
+<element tag="0018,0083" vr="DS" vm="1" len="2" name="NumberOfAverages">2</element>
+<element tag="0018,0084" vr="DS" vm="1" len="10" name="ImagingFrequency">63.675082</element>
+<element tag="0018,0085" vr="SH" vm="1" len="2" name="ImagedNucleus">1H</element>
+<element tag="0018,0087" vr="DS" vm="1" len="4" name="MagneticFieldStrength">1.5</element>
+<element tag="0018,0089" vr="IS" vm="1" len="4" name="NumberOfPhaseEncodingSteps">256</element>
+<element tag="0018,0091" vr="IS" vm="1" len="2" name="EchoTrainLength">71</element>
+<element tag="0018,0093" vr="DS" vm="1" len="4" name="PercentSampling">100</element>
+<element tag="0018,0094" vr="DS" vm="1" len="4" name="PercentPhaseFieldOfView">100</element>
+<element tag="0018,0095" vr="DS" vm="1" len="4" name="PixelBandwidth">528</element>
+<element tag="0018,1000" vr="LO" vm="1" len="6" name="DeviceSerialNumber">183239</element>
+<element tag="0018,1020" vr="LO" vm="1" len="14" name="SoftwareVersions">syngo MR XA31</element>
+<element tag="0018,1030" vr="LO" vm="1" len="18" name="ProtocolName">T2 Ax Space Iso RT</element>
+<element tag="0018,1080" vr="CS" vm="1" len="2" name="BeatRejectionFlag">N</element>
+<element tag="0018,1090" vr="IS" vm="1" len="2" name="CardiacNumberOfImages">1</element>
+<element tag="0018,1250" vr="SH" vm="1" len="12" name="ReceiveCoilName">Spine_24_RS</element>
+<element tag="0018,1251" vr="SH" vm="1" len="4" name="TransmitCoilName">Body</element>
+<element tag="0018,1310" vr="US" vm="4" len="8" name="AcquisitionMatrix">0\256\256\0</element>
+<element tag="0018,1312" vr="CS" vm="1" len="4" name="InPlanePhaseEncodingDirection">ROW</element>
+<element tag="0018,1314" vr="DS" vm="1" len="4" name="FlipAngle">140</element>
+<element tag="0018,1316" vr="DS" vm="1" len="16" name="SAR">0.48023716403774</element>
+<element tag="0018,5100" vr="CS" vm="1" len="4" name="PatientPosition">HFS</element>
+<element tag="0018,9004" vr="CS" vm="1" len="8" name="ContentQualification">PRODUCT</element>
+<sequence tag="0018,a001" vr="SQ" card="1" len="228" name="ContributingEquipmentSequence">
+<item card="7" len="220">
+<element tag="0008,0070" vr="LO" vm="1" len="8" name="Manufacturer">PixelMed</element>
+<element tag="0008,1010" vr="SH" vm="1" len="14" name="StationName">LAP-202_11112</element>
+<element tag="0008,1090" vr="LO" vm="1" len="12" name="ManufacturerModelName">DicomCleaner</element>
+<element tag="0018,1020" vr="LO" vm="1" len="28" name="SoftwareVersions">Tue Oct  4 18:39:01 EDT 2022</element>
+<element tag="0018,a002" vr="DT" vm="1" len="24" name="ContributionDateTime">20230621111540.084+0200</element>
+<element tag="0018,a003" vr="ST" vm="1" len="8" name="ContributionDescription">Cleaned</element>
+<sequence tag="0040,a170" vr="SQ" card="1" len="66" name="PurposeOfReferenceCodeSequence">
+<item card="3" len="58">
+<element tag="0008,0100" vr="SH" vm="1" len="6" name="CodeValue">109104</element>
+<element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">DCM</element>
+<element tag="0008,0104" vr="LO" vm="1" len="24" name="CodeMeaning">De-identifying Equipment</element>
+</item>
+</sequence>
+</item>
+</sequence>
+<element tag="0020,000d" vr="UI" vm="1" len="62" name="StudyInstanceUID">1.3.6.1.4.1.5962.99.1.3711725607.829148806.1687338938407.3.18</element>
+<element tag="0020,000e" vr="UI" vm="1" len="62" name="SeriesInstanceUID">1.3.6.1.4.1.5962.99.1.3711725607.829148806.1687338938407.6.18</element>
+<element tag="0020,0010" vr="SH" vm="0" len="0" name="StudyID"></element>
+<element tag="0020,0011" vr="IS" vm="1" len="2" name="SeriesNumber">3</element>
+<element tag="0020,0012" vr="IS" vm="1" len="2" name="AcquisitionNumber">1</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">52</element>
+<element tag="0020,0032" vr="DS" vm="3" len="22" name="ImagePositionPatient">-201.756\-208.713\11.4</element>
+<element tag="0020,0037" vr="DS" vm="6" len="28" name="ImageOrientationPatient">1\4.897e-12\0\-4.897e-12\1\0</element>
+<element tag="0020,0052" vr="UI" vm="1" len="60" name="FrameOfReferenceUID">1.3.6.1.4.1.5962.99.1.3711725607.829148806.1687338938407.7.0</element>
+<element tag="0020,0105" vr="IS" vm="1" len="2" name="NumberOfTemporalPositions">1</element>
+<element tag="0020,1040" vr="LO" vm="0" len="0" name="PositionReferenceIndicator"></element>
+<element tag="0020,1041" vr="DS" vm="1" len="4" name="SliceLocation">11.4</element>
+<element tag="0020,9172" vr="UN" vm="1" len="116" name="ConversionSourceAttributesSequence" binary="hidden"></element>
+<element tag="0028,0002" vr="US" vm="1" len="2" name="SamplesPerPixel">1</element>
+<element tag="0028,0004" vr="CS" vm="1" len="12" name="PhotometricInterpretation">MONOCHROME2</element>
+<element tag="0028,0010" vr="US" vm="1" len="2" name="Rows">256</element>
+<element tag="0028,0011" vr="US" vm="1" len="2" name="Columns">256</element>
+<element tag="0028,0030" vr="DS" vm="2" len="14" name="PixelSpacing">1.5625\1.5625</element>
+<element tag="0028,0100" vr="US" vm="1" len="2" name="BitsAllocated">8</element>
+<element tag="0028,0101" vr="US" vm="1" len="2" name="BitsStored">8</element>
+<element tag="0028,0102" vr="US" vm="1" len="2" name="HighBit">7</element>
+<element tag="0028,0103" vr="US" vm="1" len="2" name="PixelRepresentation">0</element>
+<element tag="0028,0301" vr="CS" vm="1" len="2" name="BurnedInAnnotation">NO</element>
+<element tag="0028,1050" vr="DS" vm="1" len="8" name="WindowCenter">91.5608</element>
+<element tag="0028,1051" vr="DS" vm="1" len="8" name="WindowWidth">194.458</element>
+<element tag="0028,1052" vr="DS" vm="1" len="2" name="RescaleIntercept">0</element>
+<element tag="0028,1053" vr="DS" vm="1" len="2" name="RescaleSlope">1</element>
+<element tag="0028,1054" vr="LO" vm="1" len="2" name="RescaleType">US</element>
+<element tag="0028,1055" vr="LO" vm="1" len="28" name="WindowCenterWidthExplanation">center=91.5608/width=194.458</element>
+<element tag="0028,2110" vr="CS" vm="1" len="2" name="LossyImageCompression">01</element>
+<element tag="0028,2112" vr="DS" vm="1" len="8" name="LossyImageCompressionRatio">23.0652</element>
+<element tag="0028,2114" vr="CS" vm="1" len="12" name="LossyImageCompressionMethod">ISO_10918_1</element>
+<element tag="0040,0244" vr="DA" vm="1" len="8" name="PerformedProcedureStepStartDate">20221215</element>
+<element tag="0040,0245" vr="TM" vm="1" len="14" name="PerformedProcedureStepStartTime">194622.300000</element>
+<element tag="0040,0254" vr="LO" vm="1" len="16" name="PerformedProcedureStepDescription">Pelvis Masculin</element>
+<element tag="0054,0081" vr="US" vm="1" len="2" name="NumberOfSlices">112</element>
+<element tag="2050,0020" vr="CS" vm="1" len="8" name="PresentationLUTShape">IDENTITY</element>
+<sequence tag="7fe0,0010" vr="OB" card="2" name="PixelData">
+<pixel-item len="4" binary="hidden"></pixel-item>
+<pixel-item len="4262" loaded="no" binary="hidden"></pixel-item>
+</sequence>
+</data-set>
+</file-format>
