@@ -4,7 +4,8 @@
 
 ## Répertoire Référencement DRIMBox : Ce répertoire contient l'exhaustivité des jeux de données associés au déroulement de la session de test Homologation SEGUR vague 2 à destination des éditeurs de systèmes DRIMBox. 
 
-## Répertoire Référencement PFI : Ce répertoire contient l'exhaustivité des jeux de données associés au déroulement du scénario de test "SC.DB/PFI.01.01" à destination des éditeurs de systèmes PFI. 
+## Répertoire Référencement : Ce répertoire contient l'exhaustivité des jeux de données associés au déroulement du scénario de test "SC.DB/PFI.01.01" à destination des éditeurs de systèmes PFI. 
 
 ## Répertoire Script : Ce répertoire contient un ensemble de scripts associés à l'environnement de test dédié au déroulement du processus d'Homologation SEGUR vague 2 à destination des éditeurs de systèmes DRIMBox. 
 
+## Répertoire Echantillons validateurs : Ce répertoire contient un ensemble de fichiers associés à l'utilisation des différents validateurs impliqués dans le cadre du processus d'Homologation SEGUR vague 2 à destination des éditeurs de systèmes DRIMBox. 
