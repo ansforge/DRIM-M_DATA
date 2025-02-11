@@ -123,8 +123,8 @@ xmlns="urn:hl7-org:v3" xmlns:ps3-20="urn:dicom-org:ps3-20">
         <birthplace>
           <place>
             <addr>
-              <county>63220</county>
-              <city>MAZOIRES</city>
+              <county>51215</county>
+              <city>DOMPREMY</city>
             </addr>
           </place>
         </birthplace>
