@@ -360,7 +360,7 @@ xmlns="urn:hl7-org:v3" xmlns:ps3-20="urn:dicom-org:ps3-20">
       <!-- Order Place Number : Numéro de la demande attribué par le demandeur -->
       <id root="1.2.250.1.213.4.5.2.6" extension="OPN127"/>
       <!-- Accession Number -->
-      <ps3-20:accessionNumber root="1.2.250.1.213.4.5.2.5" extension="ACN127"/>     
+      <ps3-20:accessionNumber root="1.2.250.1.925.994044785528.27" extension="ACN127"/>     
     </order>
   </inFulfillmentOf>
 
