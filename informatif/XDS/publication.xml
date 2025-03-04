@@ -278,20 +278,20 @@ Content-ID: <0.1>
                   <LocalizedString charset="UTF8" value="Ambulatoire" xml:lang="FR"/>
                 </Name>
               </Classification>
-              <Classification classificationScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4" classifiedObject="DocumentKOS" id="cla55" nodeRepresentation="63337009">
+              <Classification classificationScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4" classifiedObject="DocumentKOS" id="cla55" nodeRepresentation="774007">
                 <Slot name="codingScheme">
                   <ValueList>
-                    <Value>1.2.250.1.213.2.5</Value>
+                    <Value>2.16.840.1.113883.6.96</Value>
                   </ValueList>
                 </Slot>
                 <Name>
-                  <LocalizedString charset="UTF8" value="Abdomen + pelvis" xml:lang="FR"/>
+                  <LocalizedString charset="UTF8" value="structure de la tête et/ou du cou" xml:lang="FR"/>
                 </Name>
               </Classification>
               <Classification classificationScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4" classifiedObject="DocumentKOS" id="cla56" nodeRepresentation="MR">
                 <Slot name="codingScheme">
                   <ValueList>
-                    <Value>1.2.250.1.213.1.1.5.618</Value>
+                    <Value>1.2.840.10008.2.16.4</Value>
                   </ValueList>
                 </Slot>
                 <Name>
