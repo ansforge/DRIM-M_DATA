@@ -166,7 +166,7 @@ xmlns="urn:hl7-org:v3" xmlns:ps3-20="urn:dicom-org:ps3-20">
         </name>
       </assignedPerson>
       <representedOrganization>
-        <id root="1.2.250.1.71.4.2.2" extension="101235555"/>
+        <id root="1.2.250.1.71.4.2.2" extension="1750803447"/>
         <name>Centre de radiologie Ambroise</name>
         <telecom value="tel:0146000000"/>
         <addr>
@@ -215,7 +215,7 @@ xmlns="urn:hl7-org:v3" xmlns:ps3-20="urn:dicom-org:ps3-20">
   <custodian typeCode="CST">
     <assignedCustodian classCode="ASSIGNED">
       <representedCustodianOrganization classCode="ORG" determinerCode="INSTANCE">
-        <id root="1.2.250.1.71.4.2.2" extension="101235555"/>
+        <id root="1.2.250.1.71.4.2.2" extension="1750803447"/>
         <name>Centre de radiologie Ambroise</name>
         <telecom value="tel:0146000000"/>
         <addr>
@@ -257,7 +257,7 @@ xmlns="urn:hl7-org:v3" xmlns:ps3-20="urn:dicom-org:ps3-20">
         </name>
       </assignedPerson>
       <representedOrganization>
-        <id root="1.2.250.1.71.4.2.2" extension="101235555"/>
+        <id root="1.2.250.1.71.4.2.2" extension="1750803447"/>
         <name>Centre de radiologie Ambroise</name>
         <telecom value="tel:0146000000"/>
         <addr>
@@ -299,7 +299,7 @@ xmlns="urn:hl7-org:v3" xmlns:ps3-20="urn:dicom-org:ps3-20">
         </name>
       </assignedPerson>
       <representedOrganization>
-        <id root="1.2.250.1.71.4.2.2" extension="101235555"/>
+        <id root="1.2.250.1.71.4.2.2" extension="1750803447"/>
         <name>Centre de radiologie Ambroise</name>
         <telecom value="tel:0146000000"/>
         <addr>
@@ -341,7 +341,7 @@ xmlns="urn:hl7-org:v3" xmlns:ps3-20="urn:dicom-org:ps3-20">
         </name>
       </associatedPerson>
       <scopingOrganization>
-        <id root="1.2.250.1.71.4.2.2" extension="101235555"/>
+        <id root="1.2.250.1.71.4.2.2" extension="1750803447"/>
         <name>Cabinet du DR MEDIONI</name>
         <telecom value="tel:0147150000" use="WP"/>
         <addr>
@@ -358,9 +358,9 @@ xmlns="urn:hl7-org:v3" xmlns:ps3-20="urn:dicom-org:ps3-20">
   <inFulfillmentOf>
     <order>      
       <!-- Order Place Number : Numéro de la demande attribué par le demandeur -->
-      <id root="1.2.250.1.213.4.5.2.6" extension="OPN117"/>
+      <id root="1.2.250.1.748.12345678.12" extension="OPN117"/>
       <!-- Accession Number -->
-      <ps3-20:accessionNumber root="1.2.250.1.925.994044785528.27" extension="ACN117"/>     
+      <ps3-20:accessionNumber root="1.2.250.1.925.994044.27" extension="ACN117"/>     
     </order>
   </inFulfillmentOf>
 
@@ -418,7 +418,7 @@ xmlns="urn:hl7-org:v3" xmlns:ps3-20="urn:dicom-org:ps3-20">
           </assignedPerson>
           <representedOrganization>
             <!-- [1..1] Identifiant de l'établissement : obligatoire pour la DRIM Box -->
-            <id root="1.2.250.1.71.4.2.2" extension="101235555"/>
+            <id root="1.2.250.1.71.4.2.2" extension="1750803447"/>
             <name>Centre de radiologie Ambroise</name>
             <telecom value="tel:0146000000"/>
             <addr>
@@ -446,7 +446,7 @@ xmlns="urn:hl7-org:v3" xmlns:ps3-20="urn:dicom-org:ps3-20">
       </effectiveTime>
       <location>
         <healthCareFacility>
-          <id root="1.2.250.1.71.4.2.2" extension="101235555"/>
+          <id root="1.2.250.1.71.4.2.2" extension="1750803447"/>
           <code code="SA08" displayName="Cabinet de groupe" codeSystem="1.2.250.1.71.4.2.4"/>
           <location>
             <name>Centre de radiologie Ambroise</name>
