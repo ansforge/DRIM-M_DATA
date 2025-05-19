@@ -9,8 +9,9 @@ jobs:
       - uses: actions/checkout@v3
         with:    
           path: source
-      - uses: ansforge/ci-sis-action-validate@patch-sansImageDicom
+      - uses: ansforge/ci-sis-action-validate@main
         with:      
           repo: "./source"   
           except: "Images DICOM"
           severityThreshold: "ERROR"
+          apiKey: ${{ secrets.apikey }}
