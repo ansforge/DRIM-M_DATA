@@ -12,6 +12,5 @@ Ce script permet d'effectuer un chargement ordonné d'un grand nombre d'instance
 
 Préalablement à l'exécution du script, l'utilisateur doit avoir connaissance des informations suivantes :
 - Adresse du répertoire contenant les images à charger au sein de DCM4CHEE
-- Hostname/IP et port associés au DCM4CHEE au sein duquel doit être effectué le chargement  
-- Niveau d'encodage des instances DICOM à charger au sein de DCM4CHEE (attribut 0002,0010))
+- Hostname/IP et port associés au DCM4CHEE au sein duquel doit être effectué le chargement
 

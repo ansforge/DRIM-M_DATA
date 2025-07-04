@@ -8,4 +8,4 @@
 
 ## Répertoire Script : Ce répertoire contient un ensemble de scripts associés à l'environnement de test dédié au déroulement du processus d'Homologation SEGUR vague 2 à destination des éditeurs de systèmes DRIMBox. 
 
-## Répertoire Echantillons validateurs : Ce répertoire contient un ensemble de fichiers associés à l'utilisation des différents validateurs impliqués dans le cadre du processus d'Homologation SEGUR vague 2 à destination des éditeurs de systèmes DRIMBox. 
+## Répertoire Echantillons validateurs : Ce répertoire contient un ensemble de fichiers associés à l'utilisation des différents validateurs impliqués dans le cadre du processus d'Homologation SEGUR vague 2 à destination des éditeurs de systèmes DRIMBox. Les jeux de données mis à disposition au sein de ce répertoire constituent un ensemble de cas passants. 
