@@ -386,7 +386,7 @@ xmlns="urn:hl7-org:v3" xmlns:ps3-20="urn:dicom-org:ps3-20">
         <translation code="NZQN001"  displayName="Remnographie [IRM] unilatérale ou bilatérale de segment du membre inférieur, sans injection de produit de contraste" 
           codeSystem="1.2.250.1.213.2.5" codeSystemName="CCAM"/>
         <!-- [1..*] Modalité d'imagerie : Valeur issue du JDV_ModaliteAcquisition_CISIS (1.2.250.1.213.1.1.5.618) -->
-        <translation code="RM" displayName="Résonance magnétique" codeSystem="1.2.840.10008.2.16.4" codeSystemName="DCM">
+        <translation code="MR" displayName="Résonance magnétique" codeSystem="1.2.840.10008.2.16.4" codeSystemName="DCM">
           <qualifier>
             <name code="121139" displayName="Modalité d'imagerie" codeSystem="1.2.840.10008.2.16.4" codeSystemName="DCM"/>
           </qualifier>

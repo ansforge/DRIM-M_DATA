@@ -111,7 +111,7 @@ Content-ID: <0.1>
               <Classification classificationScheme="urn:uuid:a7058bb9-b4e4-4307-ba5b-e3f0ab85e12d" classifiedObject="SubmissionSet01" id="cla45">
                 <Slot name="authorPerson">
                   <ValueList>
-                    <Value>899700367909^DOC0036790^KIT^^^^^^&amp;1.2.250.1.71.4.2.1&amp;ISO^D^^^IDNPS</Value>
+                    <Value>518751275100020/11^DRIMBox^ANS^^^^^^&amp;1.2.250.1.71.4.2.1&amp;ISO^U^^^EI</Value>
                   </ValueList>
                 </Slot>
                 <Slot name="authorInstitution">
@@ -210,7 +210,7 @@ Content-ID: <0.1>
               <Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="DocumentKOS" id="cla48">
                 <Slot name="authorPerson">
                   <ValueList>
-                    <Value>899700367909^DOC0036790^KIT^^^^^^&amp;1.2.250.1.71.4.2.1&amp;ISO^D^^^IDNPS</Value>
+                    <Value>518751275100020/11^DRIMBox^ANS^^^^^^&amp;1.2.250.1.71.4.2.1&amp;ISO^U^^^EI</Value>
                   </ValueList>
                 </Slot>
                 <Slot name="authorInstitution">
@@ -372,7 +372,7 @@ Content-ID: <0.1>
               <Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="Signature01" id="cla57">
                 <Slot name="authorPerson">
                   <ValueList>
-                    <Value>899700367909^DOC0036790^KIT^^^^^^&amp;1.2.250.1.71.4.2.1&amp;ISO^D^^^IDNPS</Value>
+                    <Value>518751275100020/11^DRIMBox^ANS^^^^^^&amp;1.2.250.1.71.4.2.1&amp;ISO^U^^^EI</Value>
                   </ValueList>
                 </Slot>
                 <Slot name="authorInstitution">
