@@ -101,7 +101,7 @@
       </assignedPerson>
       <representedOrganization>
         <id extension="499700367909006" root="1.2.250.1.71.4.2.2"></id>
-        <name>BCOM</name>
+        <name>Centre de radiologie Ambroise</name>
         <telecom nullFlavor="UNK"></telecom>
         <addr nullFlavor="UNK"></addr>
       </representedOrganization>
