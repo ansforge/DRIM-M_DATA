@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListeBlancheDRIM-M xmlns="https://github.com/ansforge/DRIM-M_DATA" versionFormat="1.0.0">
-    <DateDeGeneration>2025-05-20T11:08:12Z</DateDeGeneration>
+    <DateDeGeneration>2025-07-23T11:08:12Z</DateDeGeneration>
     <ListeDomaines>
 	<Domaine>
 		    <Identifiant>3</Identifiant>
@@ -38,6 +38,24 @@
             <DNCertificatOperateur>CN=db7.test.mesimagesmedicales.fr,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</DNCertificatOperateur>
             <SupportContact>drim-m@esante.gouv.fr</SupportContact>
             <DateMAJ>2024-12-10T11:27:12Z</DateMAJ>
+        </Domaine>
+		<Domaine>
+		    <Identifiant>175</Identifiant>
+            <db>db175.test.mesimagesmedicales.fr</db>
+			<vi>vi175.test.mesimagesmedicales.fr</vi>
+            <Denomination>E-MEDIA</Denomination>
+            <DNCertificatOperateur>CN=db175.test.mesimagesmedicales.fr,OU=300000001831981,O=MINISTERE DE TEST3198,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>emedia-dev@e-media.fr</SupportContact>
+            <DateMAJ>2025-07-22T11:27:12Z</DateMAJ>
+        </Domaine>
+		<Domaine>
+		    <Identifiant>178</Identifiant>
+            <db>db178.test.mesimagesmedicales.fr</db>
+			<vi>vi178.test.mesimagesmedicales.fr</vi>
+            <Denomination>Softway Medical</Denomination>
+            <DNCertificatOperateur>CN=db178.test.mesimagesmedicales.fr,OU=300000001831999,O=MINISTERE DE TEST3199,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>dsr-drim@softwaymedical.fr</SupportContact>
+            <DateMAJ>2025-07-23T11:27:12Z</DateMAJ>
         </Domaine>
     </ListeDomaines>
 </ListeBlancheDRIM-M>
