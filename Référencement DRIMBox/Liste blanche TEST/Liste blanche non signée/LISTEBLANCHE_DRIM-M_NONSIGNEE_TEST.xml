@@ -57,7 +57,15 @@
             <SupportContact>dsr-drim@softwaymedical.fr</SupportContact>
             <DateMAJ>2025-07-23T11:27:12Z</DateMAJ>
         </Domaine>
+        <Domaine>
+		    <Identifiant>156</Identifiant>
+            <db>db156.test.mesimagesmedicales.fr</db>
+			<vi>vi156.test.mesimagesmedicales.fr</vi>
+            <Denomination>EDL</Denomination>
+            <DNCertificatOperateur>CN=db156.test.mesimagesmedicales.fr,OU=300000001832013,O=MINISTERE DE TEST3201,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>godin@edl.fr</SupportContact>
+            <DateMAJ>2025-08-08T11:27:12Z</DateMAJ>
+        </Domaine>
     </ListeDomaines>
 </ListeBlancheDRIM-M>
 	
-
