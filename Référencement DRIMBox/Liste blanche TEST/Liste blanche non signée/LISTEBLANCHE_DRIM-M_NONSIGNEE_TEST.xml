@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ListeBlancheDRIM-M xmlns="https://github.com/ansforge/DRIM-M_DATA" versionFormat="1.0.0">
-    <DateDeGeneration>2025-07-23T11:08:12Z</DateDeGeneration>
+    <DateDeGeneration>2025-09-10T11:08:12Z</DateDeGeneration>
     <ListeDomaines>
 	<Domaine>
 		    <Identifiant>3</Identifiant>
@@ -57,7 +57,23 @@
             <SupportContact>dsr-drim@softwaymedical.fr</SupportContact>
             <DateMAJ>2025-07-23T11:27:12Z</DateMAJ>
         </Domaine>
+        <Domaine>
+		    <Identifiant>156</Identifiant>
+            <db>db156.test.mesimagesmedicales.fr</db>
+			<vi>vi156.test.mesimagesmedicales.fr</vi>
+            <Denomination>EDL</Denomination>
+            <DNCertificatOperateur>CN=db156.test.mesimagesmedicales.fr,OU=300000001832013,O=MINISTERE DE TEST3201,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>godin@edl.fr</SupportContact>
+            <DateMAJ>2025-08-08T11:27:12Z</DateMAJ>
+        </Domaine>
+		<Domaine>
+		    <Identifiant>157</Identifiant>
+            <db>db157.test.mesimagesmedicales.fr</db>
+			<vi>vi157.test.mesimagesmedicales.fr</vi>
+            <Denomination>EVOLUCARE</Denomination>
+            <DNCertificatOperateur>CN=db157.test.mesimagesmedicales.fr,OU=300000001871110,O=GIP - TEST7111,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>g.juving@evolucare.com</SupportContact>
+            <DateMAJ>2025-09-10T11:27:12Z</DateMAJ>
+        </Domaine>
     </ListeDomaines>
 </ListeBlancheDRIM-M>
-	
-
