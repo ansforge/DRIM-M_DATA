@@ -75,5 +75,14 @@
             <SupportContact>g.juving@evolucare.com</SupportContact>
             <DateMAJ>2025-09-10T11:27:12Z</DateMAJ>
         </Domaine>
+        <Domaine>
+		    <Identifiant>172</Identifiant>
+            <db>db172.test.mesimagesmedicales.fr</db>
+			<vi>vi172.test.mesimagesmedicales.fr</vi>
+            <Denomination>TELEMIS</Denomination>
+            <DNCertificatOperateur>CN=db172.test.mesimagesmedicales.fr,OU=300000001873710,O=MINISTERE DE TEST7371,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>jbg@telemis.com</SupportContact>
+            <DateMAJ>2025-09-22T11:27:12Z</DateMAJ>
+        </Domaine>
     </ListeDomaines>
 </ListeBlancheDRIM-M>
