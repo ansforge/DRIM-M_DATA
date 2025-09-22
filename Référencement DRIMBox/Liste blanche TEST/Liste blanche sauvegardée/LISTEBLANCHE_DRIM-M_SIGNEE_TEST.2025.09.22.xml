@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ListeBlancheDRIM-M xmlns="https://github.com/ansforge/DRIM-M_DATA" versionFormat="1.0.0">
+    <DateDeGeneration>2025-09-10T11:08:12Z</DateDeGeneration>
+    <ListeDomaines>
+	<Domaine>
+		    <Identifiant>3</Identifiant>
+            <db>db3.test.mesimagesmedicales.fr</db>
+           <vi/>
+            <Denomination>ANS</Denomination>
+            <DNCertificatOperateur>CN=db3.test.mesimagesmedicales.fr,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>drim-m@esante.gouv.fr</SupportContact>
+            <DateMAJ>2024-12-10T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>4</Identifiant>
+            <db>db4.test.mesimagesmedicales.fr</db>
+			<vi/>
+            <Denomination>ANS</Denomination>
+            <DNCertificatOperateur>CN=db4.test.mesimagesmedicales.fr,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>drim-m@esante.gouv.fr</SupportContact>
+            <DateMAJ>2024-12-10T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>5</Identifiant>
+            <db>db5.test.mesimagesmedicales.fr</db>
+			<vi/>
+            <Denomination>ANS</Denomination>
+            <DNCertificatOperateur>CN=db5.test.mesimagesmedicales.fr,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>drim-m@esante.gouv.fr</SupportContact>
+            <DateMAJ>2024-12-10T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>7</Identifiant>
+            <db>db7.test.mesimagesmedicales.fr</db>
+			<vi/>
+            <Denomination>ANS</Denomination>
+            <DNCertificatOperateur>CN=db7.test.mesimagesmedicales.fr,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>drim-m@esante.gouv.fr</SupportContact>
+            <DateMAJ>2024-12-10T11:27:12Z</DateMAJ>
+        </Domaine>
+		<Domaine>
+		    <Identifiant>175</Identifiant>
+            <db>db175.test.mesimagesmedicales.fr</db>
+			<vi>vi175.test.mesimagesmedicales.fr</vi>
+            <Denomination>E-MEDIA</Denomination>
+            <DNCertificatOperateur>CN=db175.test.mesimagesmedicales.fr,OU=300000001831981,O=MINISTERE DE TEST3198,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>emedia-dev@e-media.fr</SupportContact>
+            <DateMAJ>2025-07-22T11:27:12Z</DateMAJ>
+        </Domaine>
+		<Domaine>
+		    <Identifiant>178</Identifiant>
+            <db>db178.test.mesimagesmedicales.fr</db>
+			<vi>vi178.test.mesimagesmedicales.fr</vi>
+            <Denomination>Softway Medical</Denomination>
+            <DNCertificatOperateur>CN=db178.test.mesimagesmedicales.fr,OU=300000001831999,O=MINISTERE DE TEST3199,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>dsr-drim@softwaymedical.fr</SupportContact>
+            <DateMAJ>2025-07-23T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>156</Identifiant>
+            <db>db156.test.mesimagesmedicales.fr</db>
+			<vi>vi156.test.mesimagesmedicales.fr</vi>
+            <Denomination>EDL</Denomination>
+            <DNCertificatOperateur>CN=db156.test.mesimagesmedicales.fr,OU=300000001832013,O=MINISTERE DE TEST3201,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>godin@edl.fr</SupportContact>
+            <DateMAJ>2025-08-08T11:27:12Z</DateMAJ>
+        </Domaine>
+		<Domaine>
+		    <Identifiant>157</Identifiant>
+            <db>db157.test.mesimagesmedicales.fr</db>
+			<vi>vi157.test.mesimagesmedicales.fr</vi>
+            <Denomination>EVOLUCARE</Denomination>
+            <DNCertificatOperateur>CN=db157.test.mesimagesmedicales.fr,OU=300000001871110,O=GIP - TEST7111,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>g.juving@evolucare.com</SupportContact>
+            <DateMAJ>2025-09-10T11:27:12Z</DateMAJ>
+        </Domaine>
+    </ListeDomaines>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-661b4ab318834a7f4c585252db67ebb9"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="r-id-661b4ab318834a7f4c585252db67ebb9-1" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2002/06/xmldsig-filter2"><dsig-filter2:XPath xmlns:dsig-filter2="http://www.w3.org/2002/06/xmldsig-filter2" Filter="subtract">/descendant::ds:Signature</dsig-filter2:XPath></ds:Transform><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>8strodqEM4f93+gMQ/HwkOrWoA9uEadTeU6RDg4A7jo=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-661b4ab318834a7f4c585252db67ebb9"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>oi/dm9kVPHO+F2krCuonlhvUW2nqCwP7Nzr8sDPbOJs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-661b4ab318834a7f4c585252db67ebb9">D22z6MDQWhC8g7oBnvU/EMFsxLlA5thy0rKlqQUH5QhrqYYCunZQJZ8fWs3soqloT7CFgQ9jM0IJyDvnoJ539GzvHpKHTE+gW7CfbGcdwWo0ApM45rdXiGfY/bwX5qUQtP0MnQYWmNqxXTEc2s6qPOHnmVqMgIBbexkfzAJMz5qYr+AqM4+EucFzqytyk+zMRvOgqTzoNVQdagmRyJgZdIvYv+FpxM+Z6T+bI9ptgOcfMLuWc+B6qn8lPx4qUj5GphVRYYUKFgewQLv352eEY9v0L3TgG+BBt+h+Q5Udpn5dAbqmwKOLbCVk6s2U2drO5ePBvDQw/PPO5IcmhPbERA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509SubjectName>CN=Liste Blanche DRIM-M,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</ds:X509SubjectName><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-661b4ab318834a7f4c585252db67ebb9"><xades:SignedProperties Id="xades-id-661b4ab318834a7f4c585252db67ebb9"><xades:SignedSignatureProperties><xades:SigningTime>2025-09-10T09:09:34Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>9t3bSqvrrVX1YctUJad/iRGzB0IAtqyaTvpTdjytWgvF0e8b/qGIE4ar+Y5fdNiJUt+nzdRA3sIwU50fLI0j0A==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGlMIGQpIGNMIGKMQswCQYDVQQGEwJGUjETMBEGA1UECgwKQVNJUC1TQU5URTEXMBUGA1UECwwOMDAwMiAxODc1MTI3NTExFzAVBgNVBAsMDklHQy1TQU5URSBURVNUMTQwMgYDVQQDDCtURVNUIEFDIElHQy1TQU5URSBFTEVNRU5UQUlSRSBPUkdBTklTQVRJT05TAhBPd3W3tU6bSyuE2UcEAy4l</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#r-id-661b4ab318834a7f4c585252db67ebb9-1"><xades:MimeType>application/octet-stream</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></ListeBlancheDRIM-M>
