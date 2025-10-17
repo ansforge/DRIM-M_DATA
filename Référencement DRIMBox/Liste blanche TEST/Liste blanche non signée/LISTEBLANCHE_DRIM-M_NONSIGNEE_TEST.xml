@@ -84,5 +84,14 @@
             <SupportContact>jbg@telemis.com</SupportContact>
             <DateMAJ>2025-09-22T11:27:12Z</DateMAJ>
         </Domaine>
+        <Domaine>
+		    <Identifiant>154</Identifiant>
+            <db>db154.test.mesimagesmedicales.fr</db>
+			<vi>vi154.test.mesimagesmedicales.fr</vi>
+            <Denomination>ENOVACOM</Denomination>
+            <DNCertificatOperateur>CN=db154.test.mesimagesmedicales.fr,OU=300000001853001,O=MINISTERE DE TEST5300,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>laurent.frigara@enovacom.com</SupportContact>
+            <DateMAJ>2025-10-17T11:27:12Z</DateMAJ>
+        </Domaine>
     </ListeDomaines>
 </ListeBlancheDRIM-M>
