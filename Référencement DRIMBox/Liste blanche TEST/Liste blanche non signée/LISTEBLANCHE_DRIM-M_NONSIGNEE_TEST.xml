@@ -93,5 +93,14 @@
             <SupportContact>laurent.frigara@enovacom.com</SupportContact>
             <DateMAJ>2025-10-17T11:27:12Z</DateMAJ>
         </Domaine>
+        <Domaine>
+		    <Identifiant>167</Identifiant>
+            <db>db167.test.mesimagesmedicales.fr</db>
+			<vi>vi167.test.mesimagesmedicales.fr</vi>
+            <Denomination>MEDSQUARE</Denomination>
+            <DNCertificatOperateur>CN=db167.test.mesimagesmedicales.fr,OU=300000001832005,O=MINISTERE DE TEST3200,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>d.jeandel@MEDSQUARE.COM</SupportContact>
+            <DateMAJ>2025-12-12T11:27:12Z</DateMAJ>
+        </Domaine>
     </ListeDomaines>
 </ListeBlancheDRIM-M>
