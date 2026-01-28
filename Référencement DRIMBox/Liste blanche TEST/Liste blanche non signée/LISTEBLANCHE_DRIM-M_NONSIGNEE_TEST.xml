@@ -102,5 +102,14 @@
             <SupportContact>d.jeandel@MEDSQUARE.COM</SupportContact>
             <DateMAJ>2025-12-12T11:27:12Z</DateMAJ>
         </Domaine>
+        <Domaine>
+		    <Identifiant>161</Identifiant>
+            <db>db161.test.mesimagesmedicales.fr</db>
+			<vi>vi161.test.mesimagesmedicales.fr</vi>
+            <Denomination>DEDALUS</Denomination>
+            <DNCertificatOperateur>CN=db161.test.mesimagesmedicales.fr,OU=300000001849132,O=MINISTERE DE TEST4913,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>didier.lesage@dedalus.com</SupportContact>
+            <DateMAJ>2026-01-28T11:27:12Z</DateMAJ>
+        </Domaine>
     </ListeDomaines>
 </ListeBlancheDRIM-M>
