@@ -111,5 +111,14 @@
             <SupportContact>didier.lesage@dedalus.com</SupportContact>
             <DateMAJ>2026-01-28T11:27:12Z</DateMAJ>
         </Domaine>
+        <Domaine>
+		    <Identifiant>169</Identifiant>
+            <db>db169.test.mesimagesmedicales.fr</db>
+			<vi>vi169.test.mesimagesmedicales.fr</vi>
+            <Denomination>IMADIS</Denomination>
+            <DNCertificatOperateur>CN=db169.test.mesimagesmedicales.fr,OU=300000001832021,O=MINISTERE DE TEST3202,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>f.chevalier@imadis-groupe.fr</SupportContact>
+            <DateMAJ>2026-02-26T11:27:12Z</DateMAJ>
+        </Domaine>
     </ListeDomaines>
 </ListeBlancheDRIM-M>
