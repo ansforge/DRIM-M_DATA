@@ -6,7 +6,7 @@
 	<Domaine>
 		    <Identifiant>3</Identifiant>
             <db>db3.test.mesimagesmedicales.fr</db>
-           <vi></vi>
+            <vi></vi>
             <Denomination>ANS</Denomination>
             <DNCertificatOperateur>CN=db3.test.mesimagesmedicales.fr,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</DNCertificatOperateur>
             <SupportContact>drim-m@esante.gouv.fr</SupportContact>
