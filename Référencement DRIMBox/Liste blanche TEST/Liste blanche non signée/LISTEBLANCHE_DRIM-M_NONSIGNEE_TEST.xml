@@ -6,7 +6,7 @@
 	<Domaine>
 		    <Identifiant>3</Identifiant>
             <db>db3.test.mesimagesmedicales.fr</db>
-            <vi></vi>
+            <vi>vi3.test.mesimagesmedicales.fr</vi>
             <Denomination>ANS</Denomination>
             <DNCertificatOperateur>CN=db3.test.mesimagesmedicales.fr,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</DNCertificatOperateur>
             <SupportContact>drim-m@esante.gouv.fr</SupportContact>
@@ -15,7 +15,7 @@
         <Domaine>
 		    <Identifiant>4</Identifiant>
             <db>db4.test.mesimagesmedicales.fr</db>
-			<vi></vi>
+			<vi>vi4.test.mesimagesmedicales.fr</vi>
             <Denomination>ANS</Denomination>
             <DNCertificatOperateur>CN=db4.test.mesimagesmedicales.fr,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</DNCertificatOperateur>
             <SupportContact>drim-m@esante.gouv.fr</SupportContact>
@@ -24,7 +24,7 @@
         <Domaine>
 		    <Identifiant>5</Identifiant>
             <db>db5.test.mesimagesmedicales.fr</db>
-			<vi></vi>
+			<vi>vi5.test.mesimagesmedicales.fr</vi>
             <Denomination>ANS</Denomination>
             <DNCertificatOperateur>CN=db5.test.mesimagesmedicales.fr,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</DNCertificatOperateur>
             <SupportContact>drim-m@esante.gouv.fr</SupportContact>
@@ -33,7 +33,7 @@
         <Domaine>
 		    <Identifiant>7</Identifiant>
             <db>db7.test.mesimagesmedicales.fr</db>
-			<vi></vi>
+			<vi>vi7.test.mesimagesmedicales.fr</vi>
             <Denomination>ANS</Denomination>
             <DNCertificatOperateur>CN=db7.test.mesimagesmedicales.fr,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</DNCertificatOperateur>
             <SupportContact>drim-m@esante.gouv.fr</SupportContact>
@@ -119,6 +119,15 @@
             <DNCertificatOperateur>CN=db169.test.mesimagesmedicales.fr,OU=300000001832021,O=MINISTERE DE TEST3202,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
             <SupportContact>f.chevalier@imadis-groupe.fr</SupportContact>
             <DateMAJ>2026-02-26T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>155</Identifiant>
+            <db>db155.test.mesimagesmedicales.fr</db>
+			<vi>vi155.test.mesimagesmedicales.fr</vi>
+            <Denomination>MAINCARE</Denomination>
+            <DNCertificatOperateur>CN=db155.test.mesimagesmedicales.fr,OU=499700831359002,O=CABINET MME MEDECIN0083135,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>jeremy.diot@softeam.fr</SupportContact>
+            <DateMAJ>2026-03-16T11:27:12Z</DateMAJ>
         </Domaine>
     </ListeDomaines>
 </ListeBlancheDRIM-M>
