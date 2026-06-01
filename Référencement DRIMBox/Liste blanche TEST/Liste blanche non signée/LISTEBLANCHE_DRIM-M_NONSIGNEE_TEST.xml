@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <ListeBlancheDRIM-M xmlns="https://github.com/ansforge/DRIM-M_DATA" versionFormat="1.0.0">
-    <DateDeGeneration>2025-09-10T11:08:12Z</DateDeGeneration>
+    <DateDeGeneration>2026-06-01 17:52:00Z</DateDeGeneration>
     <ListeDomaines>
 	<Domaine>
 		    <Identifiant>3</Identifiant>
@@ -44,7 +42,7 @@
             <db>db175.test.mesimagesmedicales.fr</db>
 			<vi>vi175.test.mesimagesmedicales.fr</vi>
             <Denomination>E-MEDIA</Denomination>
-            <DNCertificatOperateur>CN=db175.test.mesimagesmedicales.fr,OU=300000001831981,O=MINISTERE DE TEST3198,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <DNCertificatOperateur>CN=db175.test.mesimagesmedicales.fr,OU=300000001831981,O=MINISTERE DE TEST3198,ST=C&#244;te-d'Or (21),C=FR</DNCertificatOperateur>
             <SupportContact>emedia-dev@e-media.fr</SupportContact>
             <DateMAJ>2025-07-22T11:27:12Z</DateMAJ>
         </Domaine>
@@ -53,7 +51,7 @@
             <db>db178.test.mesimagesmedicales.fr</db>
 			<vi>vi178.test.mesimagesmedicales.fr</vi>
             <Denomination>Softway Medical</Denomination>
-            <DNCertificatOperateur>CN=db178.test.mesimagesmedicales.fr,OU=300000001831999,O=MINISTERE DE TEST3199,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <DNCertificatOperateur>CN=db178.test.mesimagesmedicales.fr,OU=300000001831999,O=MINISTERE DE TEST3199,ST=C&#244;te-d'Or (21),C=FR</DNCertificatOperateur>
             <SupportContact>dsr-drim@softwaymedical.fr</SupportContact>
             <DateMAJ>2025-07-23T11:27:12Z</DateMAJ>
         </Domaine>
@@ -62,7 +60,7 @@
             <db>db156.test.mesimagesmedicales.fr</db>
 			<vi>vi156.test.mesimagesmedicales.fr</vi>
             <Denomination>EDL</Denomination>
-            <DNCertificatOperateur>CN=db156.test.mesimagesmedicales.fr,OU=300000001832013,O=MINISTERE DE TEST3201,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <DNCertificatOperateur>CN=db156.test.mesimagesmedicales.fr,OU=300000001832013,O=MINISTERE DE TEST3201,ST=C&#244;te-d'Or (21),C=FR</DNCertificatOperateur>
             <SupportContact>godin@edl.fr</SupportContact>
             <DateMAJ>2025-08-08T11:27:12Z</DateMAJ>
         </Domaine>
@@ -80,7 +78,7 @@
             <db>db172.test.mesimagesmedicales.fr</db>
 			<vi>vi172.test.mesimagesmedicales.fr</vi>
             <Denomination>TELEMIS</Denomination>
-            <DNCertificatOperateur>CN=db172.test.mesimagesmedicales.fr,OU=300000001873710,O=MINISTERE DE TEST7371,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <DNCertificatOperateur>CN=db172.test.mesimagesmedicales.fr,OU=300000001873710,O=MINISTERE DE TEST7371,ST=C&#244;te-d'Or (21),C=FR</DNCertificatOperateur>
             <SupportContact>jbg@telemis.com</SupportContact>
             <DateMAJ>2025-09-22T11:27:12Z</DateMAJ>
         </Domaine>
@@ -89,7 +87,7 @@
             <db>db154.test.mesimagesmedicales.fr</db>
 			<vi>vi154.test.mesimagesmedicales.fr</vi>
             <Denomination>ENOVACOM</Denomination>
-            <DNCertificatOperateur>CN=db154.test.mesimagesmedicales.fr,OU=300000001853001,O=MINISTERE DE TEST5300,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <DNCertificatOperateur>CN=db154.test.mesimagesmedicales.fr,OU=300000001853001,O=MINISTERE DE TEST5300,ST=C&#244;te-d'Or (21),C=FR</DNCertificatOperateur>
             <SupportContact>laurent.frigara@enovacom.com</SupportContact>
             <DateMAJ>2025-10-17T11:27:12Z</DateMAJ>
         </Domaine>
@@ -98,7 +96,7 @@
             <db>db167.test.mesimagesmedicales.fr</db>
 			<vi>vi167.test.mesimagesmedicales.fr</vi>
             <Denomination>MEDSQUARE</Denomination>
-            <DNCertificatOperateur>CN=db167.test.mesimagesmedicales.fr,OU=300000001832005,O=MINISTERE DE TEST3200,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <DNCertificatOperateur>CN=db167.test.mesimagesmedicales.fr,OU=300000001832005,O=MINISTERE DE TEST3200,ST=C&#244;te-d'Or (21),C=FR</DNCertificatOperateur>
             <SupportContact>d.jeandel@MEDSQUARE.COM</SupportContact>
             <DateMAJ>2025-12-12T11:27:12Z</DateMAJ>
         </Domaine>
@@ -107,7 +105,7 @@
             <db>db161.test.mesimagesmedicales.fr</db>
 			<vi>vi161.test.mesimagesmedicales.fr</vi>
             <Denomination>DEDALUS</Denomination>
-            <DNCertificatOperateur>CN=db161.test.mesimagesmedicales.fr,OU=300000001849132,O=MINISTERE DE TEST4913,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <DNCertificatOperateur>CN=db161.test.mesimagesmedicales.fr,OU=300000001849132,O=MINISTERE DE TEST4913,ST=C&#244;te-d'Or (21),C=FR</DNCertificatOperateur>
             <SupportContact>didier.lesage@dedalus.com</SupportContact>
             <DateMAJ>2026-01-28T11:27:12Z</DateMAJ>
         </Domaine>
@@ -116,7 +114,7 @@
             <db>db169.test.mesimagesmedicales.fr</db>
 			<vi>vi169.test.mesimagesmedicales.fr</vi>
             <Denomination>IMADIS</Denomination>
-            <DNCertificatOperateur>CN=db169.test.mesimagesmedicales.fr,OU=300000001832021,O=MINISTERE DE TEST3202,ST=Côte-d'Or (21),C=FR</DNCertificatOperateur>
+            <DNCertificatOperateur>CN=db169.test.mesimagesmedicales.fr,OU=300000001832021,O=MINISTERE DE TEST3202,ST=C&#244;te-d'Or (21),C=FR</DNCertificatOperateur>
             <SupportContact>f.chevalier@imadis-groupe.fr</SupportContact>
             <DateMAJ>2026-02-26T11:27:12Z</DateMAJ>
         </Domaine>
@@ -128,6 +126,33 @@
             <DNCertificatOperateur>CN=db155.test.mesimagesmedicales.fr,OU=499700831359002,O=CABINET MME MEDECIN0083135,ST=Paris (75),C=FR</DNCertificatOperateur>
             <SupportContact>jeremy.diot@softeam.fr</SupportContact>
             <DateMAJ>2026-03-16T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>1541</Identifiant>
+            <db>db1541.test.mesimagesmedicales.fr</db>
+			<vi>vi1541.test.mesimagesmedicales.fr</vi>
+            <Denomination>ENOVACOM</Denomination>
+            <DNCertificatOperateur>CN=db1541.test.mesimagesmedicales.fr,OU=300000001832047,O=MINISTERE DE TEST3204,ST=C&#244;te-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>laurent.frigara@enovacom.com</SupportContact>
+            <DateMAJ>2026-06-01T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>1542</Identifiant>
+            <db>db1542.test.mesimagesmedicales.fr</db>
+			<vi>vi1542.test.mesimagesmedicales.fr</vi>
+            <Denomination>ENOVACOM</Denomination>
+            <DNCertificatOperateur>CN=db1542.test.mesimagesmedicales.fr,OU=300000001832054,O=MINISTERE DE TEST3205,ST=C&#244;te-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>laurent.frigara@enovacom.com</SupportContact>
+            <DateMAJ>2026-06-01T11:28:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>1543</Identifiant>
+            <db>db1543.test.mesimagesmedicales.fr</db>
+			<vi>vi1543.test.mesimagesmedicales.fr</vi>
+            <Denomination>ENOVACOM</Denomination>
+            <DNCertificatOperateur>CN=db1543.test.mesimagesmedicales.fr,OU=300000001832062,O=MINISTERE DE TEST3206,ST=C&#244;te-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>laurent.frigara@enovacom.com</SupportContact>
+            <DateMAJ>2026-06-01T11:29:12Z</DateMAJ>
         </Domaine>
     </ListeDomaines>
 </ListeBlancheDRIM-M>
