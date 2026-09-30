@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ListeBlancheDRIM-M xmlns="https://github.com/ansforge/DRIM-M_DATA" versionFormat="1.0.0">
+    <DateDeGeneration>2026-09-30T13:31:20Z</DateDeGeneration>
+    <ListeDomaines>
+	<Domaine>
+		    <Identifiant>3</Identifiant>
+            <db>db3.test.mesimagesmedicales.fr</db>
+            <vi>vi3.test.mesimagesmedicales.fr</vi>
+            <Denomination>ANS</Denomination>
+            <DNCertificatOperateur>CN=db3.test.mesimagesmedicales.fr,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>drim-m@esante.gouv.fr</SupportContact>
+            <DateMAJ>2024-12-10T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>4</Identifiant>
+            <db>db4.test.mesimagesmedicales.fr</db>
+			<vi>vi4.test.mesimagesmedicales.fr</vi>
+            <Denomination>ANS</Denomination>
+            <DNCertificatOperateur>CN=db4.test.mesimagesmedicales.fr,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>drim-m@esante.gouv.fr</SupportContact>
+            <DateMAJ>2024-12-10T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>5</Identifiant>
+            <db>db5.test.mesimagesmedicales.fr</db>
+			<vi>vi5.test.mesimagesmedicales.fr</vi>
+            <Denomination>ANS</Denomination>
+            <DNCertificatOperateur>CN=db5.test.mesimagesmedicales.fr,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>drim-m@esante.gouv.fr</SupportContact>
+            <DateMAJ>2024-12-10T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>7</Identifiant>
+            <db>db7.test.mesimagesmedicales.fr</db>
+			<vi>vi7.test.mesimagesmedicales.fr</vi>
+            <Denomination>ANS</Denomination>
+            <DNCertificatOperateur>CN=db7.test.mesimagesmedicales.fr,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>drim-m@esante.gouv.fr</SupportContact>
+            <DateMAJ>2024-12-10T11:27:12Z</DateMAJ>
+        </Domaine>
+		<Domaine>
+		    <Identifiant>175</Identifiant>
+            <db>db175.test.mesimagesmedicales.fr</db>
+			<vi>vi175.test.mesimagesmedicales.fr</vi>
+            <Denomination>E-MEDIA</Denomination>
+            <DNCertificatOperateur>CN=db175.test.mesimagesmedicales.fr,OU=300000001831981,O=MINISTERE DE TEST3198,ST=Cote-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>emedia-dev@e-media.fr</SupportContact>
+            <DateMAJ>2025-07-22T11:27:12Z</DateMAJ>
+        </Domaine>
+		<Domaine>
+		    <Identifiant>178</Identifiant>
+            <db>db178.test.mesimagesmedicales.fr</db>
+			<vi>vi178.test.mesimagesmedicales.fr</vi>
+            <Denomination>Softway Medical</Denomination>
+            <DNCertificatOperateur>CN=db178.test.mesimagesmedicales.fr,OU=300000001831999,O=MINISTERE DE TEST3199,ST=Cote-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>dsr-drim@softwaymedical.fr</SupportContact>
+            <DateMAJ>2025-07-23T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>156</Identifiant>
+            <db>db156.test.mesimagesmedicales.fr</db>
+			<vi>vi156.test.mesimagesmedicales.fr</vi>
+            <Denomination>EDL</Denomination>
+            <DNCertificatOperateur>CN=db156.test.mesimagesmedicales.fr,OU=300000001832013,O=MINISTERE DE TEST3201,ST=Cote-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>godin@edl.fr</SupportContact>
+            <DateMAJ>2025-08-08T11:27:12Z</DateMAJ>
+        </Domaine>
+		<Domaine>
+		    <Identifiant>157</Identifiant>
+            <db>db157.test.mesimagesmedicales.fr</db>
+			<vi>vi157.test.mesimagesmedicales.fr</vi>
+            <Denomination>EVOLUCARE</Denomination>
+            <DNCertificatOperateur>CN=db157.test.mesimagesmedicales.fr,OU=300000001871110,O=GIP - TEST7111,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>g.juving@evolucare.com</SupportContact>
+            <DateMAJ>2025-09-10T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>172</Identifiant>
+            <db>db172.test.mesimagesmedicales.fr</db>
+			<vi>vi172.test.mesimagesmedicales.fr</vi>
+            <Denomination>TELEMIS</Denomination>
+            <DNCertificatOperateur>CN=db172.test.mesimagesmedicales.fr,OU=300000001873710,O=MINISTERE DE TEST7371,ST=Cote-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>jbg@telemis.com</SupportContact>
+            <DateMAJ>2025-09-22T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>154</Identifiant>
+            <db>db154.test.mesimagesmedicales.fr</db>
+			<vi>vi154.test.mesimagesmedicales.fr</vi>
+            <Denomination>ENOVACOM</Denomination>
+            <DNCertificatOperateur>CN=db154.test.mesimagesmedicales.fr,OU=300000001853001,O=MINISTERE DE TEST5300,ST=Cote-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>laurent.frigara@enovacom.com</SupportContact>
+            <DateMAJ>2025-10-17T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>167</Identifiant>
+            <db>db167.test.mesimagesmedicales.fr</db>
+			<vi>vi167.test.mesimagesmedicales.fr</vi>
+            <Denomination>MEDSQUARE</Denomination>
+            <DNCertificatOperateur>CN=db167.test.mesimagesmedicales.fr,OU=300000001832005,O=MINISTERE DE TEST3200,ST=Cote-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>d.jeandel@MEDSQUARE.COM</SupportContact>
+            <DateMAJ>2025-12-12T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>161</Identifiant>
+            <db>db161.test.mesimagesmedicales.fr</db>
+			<vi>vi161.test.mesimagesmedicales.fr</vi>
+            <Denomination>DEDALUS</Denomination>
+            <DNCertificatOperateur>CN=db161.test.mesimagesmedicales.fr,OU=300000001849132,O=MINISTERE DE TEST4913,ST=Cote-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>didier.lesage@dedalus.com</SupportContact>
+            <DateMAJ>2026-01-28T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>169</Identifiant>
+            <db>db169.test.mesimagesmedicales.fr</db>
+			<vi>vi169.test.mesimagesmedicales.fr</vi>
+            <Denomination>IMADIS</Denomination>
+            <DNCertificatOperateur>CN=db169.test.mesimagesmedicales.fr,OU=300000001832021,O=MINISTERE DE TEST3202,ST=Cote-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>f.chevalier@imadis-groupe.fr</SupportContact>
+            <DateMAJ>2026-02-26T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>155</Identifiant>
+            <db>db155.test.mesimagesmedicales.fr</db>
+			<vi>vi155.test.mesimagesmedicales.fr</vi>
+            <Denomination>MAINCARE</Denomination>
+            <DNCertificatOperateur>CN=db155.test.mesimagesmedicales.fr,OU=499700831359002,O=CABINET MME MEDECIN0083135,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>jeremy.diot@softeam.fr</SupportContact>
+            <DateMAJ>2026-03-16T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>1541</Identifiant>
+            <db>db1541.test.mesimagesmedicales.fr</db>
+			<vi>vi1541.test.mesimagesmedicales.fr</vi>
+            <Denomination>ENOVACOM</Denomination>
+            <DNCertificatOperateur>CN=db1541.test.mesimagesmedicales.fr,OU=300000001832047,O=MINISTERE DE TEST3204,ST=Cote-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>laurent.frigara@enovacom.com</SupportContact>
+            <DateMAJ>2026-06-01T11:27:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>1542</Identifiant>
+            <db>db1542.test.mesimagesmedicales.fr</db>
+			<vi>vi1542.test.mesimagesmedicales.fr</vi>
+            <Denomination>ENOVACOM</Denomination>
+            <DNCertificatOperateur>CN=db1542.test.mesimagesmedicales.fr,OU=300000001832054,O=MINISTERE DE TEST3205,ST=Cote-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>laurent.frigara@enovacom.com</SupportContact>
+            <DateMAJ>2026-06-01T11:28:12Z</DateMAJ>
+        </Domaine>
+        <Domaine>
+		    <Identifiant>1543</Identifiant>
+            <db>db1543.test.mesimagesmedicales.fr</db>
+			<vi>vi1543.test.mesimagesmedicales.fr</vi>
+            <Denomination>ENOVACOM</Denomination>
+            <DNCertificatOperateur>CN=db1543.test.mesimagesmedicales.fr,OU=300000001832062,O=MINISTERE DE TEST3206,ST=Cote-d'Or (21),C=FR</DNCertificatOperateur>
+            <SupportContact>laurent.frigara@enovacom.com</SupportContact>
+            <DateMAJ>2026-06-01T11:29:12Z</DateMAJ>
+        </Domaine>
+		        <Domaine>
+		    <Identifiant>1571</Identifiant>
+            <db>db1571.test.mesimagesmedicales.fr</db>
+			<vi>vi1571.test.mesimagesmedicales.fr</vi>
+            <Denomination>EVOLUCARE</Denomination>
+            <DNCertificatOperateur>CN=db1571.test.mesimagesmedicales.fr,OU=300000001871110,O=GIP - TEST7111,ST=Paris (75),C=FR</DNCertificatOperateur>
+            <SupportContact>g.juving@evolucare.com</SupportContact>
+            <DateMAJ>2026-09-30T11:29:12Z</DateMAJ>
+        </Domaine>
+    </ListeDomaines>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-bfa9c3d62486bc4e8234ace931f400f0"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="r-id-bfa9c3d62486bc4e8234ace931f400f0-1" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2002/06/xmldsig-filter2"><dsig-filter2:XPath xmlns:dsig-filter2="http://www.w3.org/2002/06/xmldsig-filter2" Filter="subtract">/descendant::ds:Signature</dsig-filter2:XPath></ds:Transform><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>/3jztE+VcU9cTJHf+2MtsnviPJZ/6QvApkcO5UD6pcU=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-bfa9c3d62486bc4e8234ace931f400f0"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Y/rm/Fo/zd1wUnurWBHhM1i3WG3eZD4uA50R1zqESoE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-bfa9c3d62486bc4e8234ace931f400f0">ioCLfLj4j/OrJDDvQIb4smRsAud47gdppUslfEwPvWwmaDnCRscH+TJbvxaF7h+uQtBz9+wPpJ856f7evm9/PJr3E8Er85PX/p897l0sAoEuaE58DIUVMdZJOmcPp/GrMU/L5occkCpMVX/ujdTTz0RRMoPdQEq8UtfeXT1RAW4cW4EpZ8XukyqcHmP8/NuVAmzomDuW1Ybqo2YpF6p84hLpnPCqJUi9dGz6BOGagcFl3vr7Tc6wKutZW0xIfCaLlc2rgWAS7wvE/Mqv4e3WT5F/HhCGTcHInkh2m9EvqpQPv+uFHzji5pNi388WtA2XIXQh7esaBCiDtWGv4sjFYw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509SubjectName>CN=Liste Blanche DRIM-M,OU=318751275100020,O=AGENCE DU NUMERIQUE EN SANTE,ST=Paris (75),C=FR</ds:X509SubjectName><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-bfa9c3d62486bc4e8234ace931f400f0"><xades:SignedProperties Id="xades-id-bfa9c3d62486bc4e8234ace931f400f0"><xades:SignedSignatureProperties><xades:SigningTime>2026-09-30T11:31:22Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>UxscZ2JSPQn38dBOOZHKZjSlN3TGnogZnKE+GZoScVaLsAQDYtMUMOWJhjP9oVaIPskaCe//YKNIuZfukbTEXA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGlMIGQpIGNMIGKMQswCQYDVQQGEwJGUjETMBEGA1UECgwKQVNJUC1TQU5URTEXMBUGA1UECwwOMDAwMiAxODc1MTI3NTExFzAVBgNVBAsMDklHQy1TQU5URSBURVNUMTQwMgYDVQQDDCtURVNUIEFDIElHQy1TQU5URSBFTEVNRU5UQUlSRSBPUkdBTklTQVRJT05TAhBG+PuuB7oy59Mmx5UButX6</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#r-id-bfa9c3d62486bc4e8234ace931f400f0-1"><xades:MimeType>application/octet-stream</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></ListeBlancheDRIM-M>
